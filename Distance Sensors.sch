@@ -1,0 +1,252 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VL53L0X:VL53L0X U5
+U 1 1 5E5F643C
+P 5500 2350
+F 0 "U5" H 5500 3015 50  0000 C CNN
+F 1 "VL53L0X" H 5500 2924 50  0000 C CNN
+F 2 "synermycha-electronics:SENSOR_VL53L0X" H 5500 2350 50  0001 L BNN
+F 3 "1.0" H 5500 2350 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 5500 2350 50  0001 L BNN "Field4"
+F 5 "ST Microelectronics" H 5500 2350 50  0001 L BNN "Field5"
+	1    5500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VL53L0X:VL53L0X U6
+U 1 1 5E5F7515
+P 5500 3600
+F 0 "U6" H 5500 4265 50  0000 C CNN
+F 1 "VL53L0X" H 5500 4174 50  0000 C CNN
+F 2 "synermycha-electronics:SENSOR_VL53L0X" H 5500 3600 50  0001 L BNN
+F 3 "1.0" H 5500 3600 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 5500 3600 50  0001 L BNN "Field4"
+F 5 "ST Microelectronics" H 5500 3600 50  0001 L BNN "Field5"
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VL53L0X:VL53L0X U7
+U 1 1 5E5F8050
+P 5500 4850
+F 0 "U7" H 5500 5515 50  0000 C CNN
+F 1 "VL53L0X" H 5500 5424 50  0000 C CNN
+F 2 "synermycha-electronics:SENSOR_VL53L0X" H 5500 4850 50  0001 L BNN
+F 3 "1.0" H 5500 4850 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 5500 4850 50  0001 L BNN "Field4"
+F 5 "ST Microelectronics" H 5500 4850 50  0001 L BNN "Field5"
+	1    5500 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1950 6400 2050
+Wire Wire Line
+	6400 3200 6400 3300
+Connection ~ 6400 3200
+Wire Wire Line
+	6400 4550 6400 4450
+Connection ~ 6400 4450
+Connection ~ 6400 3300
+Wire Wire Line
+	6400 3300 6400 4450
+Connection ~ 6400 2050
+Wire Wire Line
+	6400 1950 6400 1850
+Connection ~ 6400 1950
+$Comp
+L Device:R_Small R11
+U 1 1 5E5FCDAC
+P 6600 2250
+F 0 "R11" V 6404 2250 50  0000 C CNN
+F 1 "47K" V 6495 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 2250 50  0001 C CNN
+F 3 "~" H 6600 2250 50  0001 C CNN
+	1    6600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 5E5FD341
+P 6600 3500
+F 0 "R12" V 6404 3500 50  0000 C CNN
+F 1 "47K" V 6495 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 3500 50  0001 C CNN
+F 3 "~" H 6600 3500 50  0001 C CNN
+	1    6600 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 5E5FDAA1
+P 6600 4750
+F 0 "R13" V 6404 4750 50  0000 C CNN
+F 1 "47K" V 6495 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 4750 50  0001 C CNN
+F 3 "~" H 6600 4750 50  0001 C CNN
+	1    6600 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 2050 6400 3200
+Wire Wire Line
+	6700 2250 6800 2250
+Wire Wire Line
+	6800 2250 6800 1950
+Wire Wire Line
+	6800 1950 6400 1950
+Wire Wire Line
+	6700 3500 6800 3500
+Wire Wire Line
+	6800 3500 6800 3200
+Wire Wire Line
+	6800 3200 6400 3200
+Wire Wire Line
+	6700 4750 6800 4750
+Wire Wire Line
+	6800 4750 6800 4450
+Wire Wire Line
+	6800 4450 6400 4450
+Wire Wire Line
+	6200 1950 6400 1950
+Wire Wire Line
+	6200 2050 6400 2050
+Wire Wire Line
+	6200 2250 6500 2250
+Wire Wire Line
+	6200 3200 6400 3200
+Wire Wire Line
+	6200 3300 6400 3300
+Wire Wire Line
+	6200 3500 6500 3500
+Wire Wire Line
+	6200 4450 6400 4450
+Wire Wire Line
+	6200 4550 6400 4550
+Wire Wire Line
+	6200 4750 6500 4750
+Wire Wire Line
+	6200 5250 6300 5250
+Wire Wire Line
+	6300 5250 6300 5150
+Wire Wire Line
+	6200 2650 6300 2650
+Wire Wire Line
+	6200 2750 6300 2750
+Connection ~ 6300 2750
+Wire Wire Line
+	6300 2750 6300 2650
+Wire Wire Line
+	6200 3900 6300 3900
+Connection ~ 6300 3900
+Wire Wire Line
+	6300 3900 6300 2750
+Wire Wire Line
+	6200 4000 6300 4000
+Connection ~ 6300 4000
+Wire Wire Line
+	6300 4000 6300 3900
+Wire Wire Line
+	6200 5150 6300 5150
+Connection ~ 6300 5150
+Wire Wire Line
+	6300 5150 6300 4000
+Wire Wire Line
+	6300 5250 6300 5350
+Connection ~ 6300 5250
+$Comp
+L power:GND #PWR0132
+U 1 1 5E609924
+P 6300 5350
+F 0 "#PWR0132" H 6300 5100 50  0001 C CNN
+F 1 "GND" H 6305 5177 50  0000 C CNN
+F 2 "" H 6300 5350 50  0001 C CNN
+F 3 "" H 6300 5350 50  0001 C CNN
+	1    6300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0133
+U 1 1 5E60A214
+P 6400 1850
+F 0 "#PWR0133" H 6400 1700 50  0001 C CNN
+F 1 "+2V8" H 6415 2023 50  0000 C CNN
+F 2 "" H 6400 1850 50  0001 C CNN
+F 3 "" H 6400 1850 50  0001 C CNN
+	1    6400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2350 4800 2350
+Wire Wire Line
+	4500 2450 4800 2450
+Wire Wire Line
+	4600 2350 4600 3600
+Wire Wire Line
+	4600 3600 4800 3600
+Connection ~ 4600 2350
+Wire Wire Line
+	4600 3600 4600 4850
+Wire Wire Line
+	4600 4850 4800 4850
+Connection ~ 4600 3600
+Wire Wire Line
+	4800 4950 4500 4950
+Wire Wire Line
+	4500 4950 4500 3700
+Connection ~ 4500 2450
+Wire Wire Line
+	4800 3700 4500 3700
+Connection ~ 4500 3700
+Wire Wire Line
+	4500 3700 4500 2450
+Wire Wire Line
+	4300 3500 4800 3500
+Wire Wire Line
+	4200 4750 4800 4750
+Text HLabel 3650 1850 0    50   Input ~ 0
+VL53L0x_SCL
+Text HLabel 3650 1950 0    50   BiDi ~ 0
+VL53L0x_SDA
+Text HLabel 3850 2050 0    50   Input ~ 0
+VL53L0x_~XSHUT[1]
+Text HLabel 3850 2150 0    50   Input ~ 0
+VL53L0x_~XSHUT[2]
+Text HLabel 3850 2250 0    50   Input ~ 0
+VL53L0x_~XSHUT[3]
+Wire Wire Line
+	4800 2250 4400 2250
+Wire Wire Line
+	3650 1850 4600 1850
+Wire Wire Line
+	3650 1950 4500 1950
+Wire Wire Line
+	4400 2050 3850 2050
+Wire Wire Line
+	3850 2150 4300 2150
+Wire Wire Line
+	3850 2250 4200 2250
+Wire Wire Line
+	4200 2250 4200 4750
+Wire Wire Line
+	4300 2150 4300 3500
+Wire Wire Line
+	4400 2050 4400 2250
+Wire Wire Line
+	4500 1950 4500 2450
+Wire Wire Line
+	4600 1850 4600 2350
+$EndSCHEMATC
