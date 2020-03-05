@@ -1,4 +1,4 @@
-update=czw, 5 mar 2020, 14:14:11
+update=czw, 5 mar 2020, 10:07:23
 version=1
 last_client=kicad
 [general]
@@ -27,7 +27,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=
 CopperLayerCount=4
-BoardThickness=1.6
+BoardThickness=1
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -58,9 +58,6 @@ ViaDrill3=0.8
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-dPairWidth2=0.1524
-dPairGap2=0.1524
-dPairViaGap2=0.2032
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1

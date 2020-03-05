@@ -109,67 +109,67 @@ Wire Wire Line
 	3650 3100 3650 3200
 Text HLabel 2050 1700 0    50   Input ~ 0
 ~RESET
-Text HLabel 10950 2550 0    50   Input ~ 0
+Text HLabel 10200 2050 0    50   Input ~ 0
 ~BUTTON_UP
-Text HLabel 10950 2650 0    50   Input ~ 0
+Text HLabel 10200 2150 0    50   Input ~ 0
 ~BUTTON_DOWN
-Text HLabel 10950 2750 0    50   Input ~ 0
+Text HLabel 10200 2250 0    50   Input ~ 0
 ~BUTTON_OK
-Text HLabel 10950 2850 0    50   Output ~ 0
+Text HLabel 6350 4550 2    50   Output ~ 0
 VL53L0x_SCL
-Text HLabel 10950 2950 0    50   BiDi ~ 0
+Text HLabel 6350 4650 2    50   BiDi ~ 0
 VL53L0x_SDA
-Text HLabel 10950 3050 0    50   Output ~ 0
+Text HLabel 10200 2550 0    50   Output ~ 0
 VL53L0x_~XSHUT[1]
-Text HLabel 10950 3150 0    50   Output ~ 0
+Text HLabel 10200 2650 0    50   Output ~ 0
 VL53L0x_~XSHUT[2]
-Text HLabel 10950 3250 0    50   Output ~ 0
+Text HLabel 10200 2750 0    50   Output ~ 0
 VL53L0x_~XSHUT[3]
-Text HLabel 10950 3350 0    50   Input ~ 0
+Text HLabel 6350 4450 2    50   Input ~ 0
 ENC_L_A
-Text HLabel 10950 3450 0    50   Input ~ 0
+Text HLabel 6350 4350 2    50   Input ~ 0
 ENC_L_B
-Text HLabel 10950 3550 0    50   Input ~ 0
+Text HLabel 6350 2650 2    50   Input ~ 0
 ENC_R_A
-Text HLabel 10950 3650 0    50   Input ~ 0
+Text HLabel 6350 2750 2    50   Input ~ 0
 ENC_R_B
-Text HLabel 10950 3750 0    50   BiDi ~ 0
+Text HLabel 3950 4600 0    50   BiDi ~ 0
 IMU_SDA
-Text HLabel 10950 3850 0    50   Output ~ 0
+Text HLabel 6850 2800 2    50   Output ~ 0
 IMU_SCL
-Text HLabel 10950 3950 0    50   Output ~ 0
+Text HLabel 6350 2250 2    50   Output ~ 0
 ESP_RX
-Text HLabel 10950 4050 0    50   Input ~ 0
+Text HLabel 6350 2350 2    50   Input ~ 0
 ESP_TX
-Text HLabel 10950 4150 0    50   Input ~ 0
+Text HLabel 10200 3300 0    50   Input ~ 0
 BATT_VOLTAGE
-Text HLabel 10950 4250 0    50   BiDi ~ 0
+Text HLabel 3950 4500 0    50   BiDi ~ 0
 LCD_SDA
-Text HLabel 10950 4350 0    50   Output ~ 0
+Text HLabel 6850 2900 2    50   Output ~ 0
 LCD_SCL
-Text HLabel 10950 4450 0    50   Output ~ 0
+Text HLabel 10200 3600 0    50   Output ~ 0
 BUZZER
-Text HLabel 10950 4550 0    50   Output ~ 0
+Text HLabel 10200 3700 0    50   Output ~ 0
 ~LED_1
-Text HLabel 10950 4650 0    50   Output ~ 0
+Text HLabel 10200 3800 0    50   Output ~ 0
 ~LED_2
-Text HLabel 10950 4750 0    50   Output ~ 0
+Text HLabel 10200 3900 0    50   Output ~ 0
 ~LED_3
-Text HLabel 10950 4850 0    50   Output ~ 0
+Text HLabel 10200 4000 0    50   Output ~ 0
 ~LED_4
-Text HLabel 10950 4950 0    50   Output ~ 0
+Text HLabel 10200 4100 0    50   Output ~ 0
 ~LED_5
-Text HLabel 10950 5050 0    50   Output ~ 0
+Text HLabel 10200 4200 0    50   Output ~ 0
 ~LED_MOUSE_EYE
-Text HLabel 10950 5150 0    50   Output ~ 0
+Text HLabel 6350 4850 2    50   Output ~ 0
 DRV8835_EN
-Text HLabel 10950 5250 0    50   Output ~ 0
+Text HLabel 6350 4950 2    50   Output ~ 0
 DRV8835_DIR_A
-Text HLabel 10950 5450 0    50   Output ~ 0
+Text HLabel 4750 4250 0    50   Output ~ 0
 DRV8835_DIR_B
-Text HLabel 10950 5350 0    50   Output ~ 0
+Text HLabel 6350 5050 2    50   Output ~ 0
 DRV8835_PWM_A
-Text HLabel 10950 5550 0    50   Output ~ 0
+Text HLabel 6350 5150 2    50   Output ~ 0
 DRV8835_PWM_B
 $Comp
 L Device:C_Small C35
@@ -539,4 +539,52 @@ Text Label 2150 2450 0    50   ~ 0
 SWDO
 Wire Wire Line
 	2150 2450 2050 2450
+Text HLabel 10200 2850 0    50   Output ~ 0
+VL53L0x_~XSHUT[4]
+Text HLabel 10200 2950 0    50   Output ~ 0
+VL53L0x_~XSHUT[5]
+Wire Wire Line
+	6250 2650 6350 2650
+Wire Wire Line
+	6250 2750 6350 2750
+Wire Wire Line
+	6350 4350 6250 4350
+Wire Wire Line
+	6350 4450 6250 4450
+Wire Wire Line
+	6350 4550 6250 4550
+Wire Wire Line
+	6250 4650 6350 4650
+Wire Wire Line
+	6250 5050 6350 5050
+Wire Wire Line
+	6250 5150 6350 5150
+Wire Wire Line
+	3950 4550 3950 4500
+Wire Wire Line
+	3950 4550 4850 4550
+Wire Wire Line
+	3950 4600 3950 4550
+Connection ~ 3950 4550
+Wire Wire Line
+	6850 2800 6850 2850
+Wire Wire Line
+	6250 2850 6850 2850
+Connection ~ 6850 2850
+Wire Wire Line
+	6850 2850 6850 2900
+Wire Wire Line
+	6350 2350 6250 2350
+Wire Wire Line
+	6250 2250 6350 2250
+Wire Wire Line
+	4850 4250 4750 4250
+Wire Wire Line
+	6250 4950 6350 4950
+Wire Wire Line
+	6250 4850 6350 4850
+Text Label 6350 4050 0    50   ~ 0
+SWDO
+Wire Wire Line
+	6350 4050 6250 4050
 $EndSCHEMATC
