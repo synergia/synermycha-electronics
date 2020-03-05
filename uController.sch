@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Crystal_GND24 Y1
+L synermycha-electronics-rescue:Crystal_GND24-Device Y1
 U 1 1 5E5FF1B5
 P 3900 3200
 F 0 "Y1" V 3854 3331 50  0000 L CNN
@@ -115,9 +115,9 @@ Text HLabel 10200 2150 0    50   Input ~ 0
 ~BUTTON_DOWN
 Text HLabel 10200 2250 0    50   Input ~ 0
 ~BUTTON_OK
-Text HLabel 6350 4550 2    50   Output ~ 0
+Text HLabel 7250 4550 2    50   Output ~ 0
 VL53L0x_SCL
-Text HLabel 6350 4650 2    50   BiDi ~ 0
+Text HLabel 8050 4650 2    50   BiDi ~ 0
 VL53L0x_SDA
 Text HLabel 10200 2550 0    50   Output ~ 0
 VL53L0x_~XSHUT[1]
@@ -125,29 +125,29 @@ Text HLabel 10200 2650 0    50   Output ~ 0
 VL53L0x_~XSHUT[2]
 Text HLabel 10200 2750 0    50   Output ~ 0
 VL53L0x_~XSHUT[3]
-Text HLabel 6350 4450 2    50   Input ~ 0
-ENC_L_A
-Text HLabel 6350 4350 2    50   Input ~ 0
-ENC_L_B
-Text HLabel 6350 2650 2    50   Input ~ 0
-ENC_R_A
 Text HLabel 6350 2750 2    50   Input ~ 0
+ENC_L_A
+Text HLabel 6350 2650 2    50   Input ~ 0
+ENC_L_B
+Text HLabel 6350 4350 2    50   Input ~ 0
+ENC_R_A
+Text HLabel 6350 4450 2    50   Input ~ 0
 ENC_R_B
-Text HLabel 3950 4600 0    50   BiDi ~ 0
+Text HLabel 3700 4550 0    50   BiDi ~ 0
 IMU_SDA
-Text HLabel 6850 2800 2    50   Output ~ 0
+Text HLabel 7050 2850 2    50   Output ~ 0
 IMU_SCL
-Text HLabel 6350 2250 2    50   Output ~ 0
+Text HLabel 6350 2950 2    50   Output ~ 0
 ESP_RX
-Text HLabel 6350 2350 2    50   Input ~ 0
+Text HLabel 6350 3050 2    50   Input ~ 0
 ESP_TX
 Text HLabel 10200 3300 0    50   Input ~ 0
 BATT_VOLTAGE
-Text HLabel 3950 4500 0    50   BiDi ~ 0
+Text HLabel 2900 4850 0    50   BiDi ~ 0
 LCD_SDA
-Text HLabel 6850 2900 2    50   Output ~ 0
+Text HLabel 9000 4750 2    50   Output ~ 0
 LCD_SCL
-Text HLabel 10200 3600 0    50   Output ~ 0
+Text HLabel 6350 2350 2    50   Output ~ 0
 BUZZER
 Text HLabel 10200 3700 0    50   Output ~ 0
 ~LED_1
@@ -552,31 +552,17 @@ Wire Wire Line
 Wire Wire Line
 	6350 4450 6250 4450
 Wire Wire Line
-	6350 4550 6250 4550
+	7250 4550 7000 4550
 Wire Wire Line
-	6250 4650 6350 4650
+	6250 4650 7850 4650
 Wire Wire Line
 	6250 5050 6350 5050
 Wire Wire Line
 	6250 5150 6350 5150
 Wire Wire Line
-	3950 4550 3950 4500
+	6350 3050 6250 3050
 Wire Wire Line
-	3950 4550 4850 4550
-Wire Wire Line
-	3950 4600 3950 4550
-Connection ~ 3950 4550
-Wire Wire Line
-	6850 2800 6850 2850
-Wire Wire Line
-	6250 2850 6850 2850
-Connection ~ 6850 2850
-Wire Wire Line
-	6850 2850 6850 2900
-Wire Wire Line
-	6350 2350 6250 2350
-Wire Wire Line
-	6250 2250 6350 2250
+	6250 2950 6350 2950
 Wire Wire Line
 	4850 4250 4750 4250
 Wire Wire Line
@@ -587,4 +573,164 @@ Text Label 6350 4050 0    50   ~ 0
 SWDO
 Wire Wire Line
 	6350 4050 6250 4050
+Wire Wire Line
+	6250 2850 6850 2850
+Wire Wire Line
+	6250 4750 8700 4750
+Wire Wire Line
+	4850 4850 3150 4850
+Wire Wire Line
+	6350 2350 6250 2350
+$Comp
+L Device:R_Small R?
+U 1 1 5E662907
+P 3800 4450
+F 0 "R?" H 3859 4496 50  0000 L CNN
+F 1 "2K2" H 3859 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3800 4450 50  0001 C CNN
+F 3 "~" H 3800 4450 50  0001 C CNN
+	1    3800 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 4550
+Wire Wire Line
+	3800 4550 3700 4550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E673825
+P 3800 4350
+F 0 "#PWR?" H 3800 4200 50  0001 C CNN
+F 1 "+3V3" H 3815 4523 50  0000 C CNN
+F 2 "" H 3800 4350 50  0001 C CNN
+F 3 "" H 3800 4350 50  0001 C CNN
+	1    3800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4550 4850 4550
+$Comp
+L Device:R_Small R?
+U 1 1 5E6788B6
+P 3150 4750
+F 0 "R?" H 3209 4796 50  0000 L CNN
+F 1 "2K2" H 3209 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3150 4750 50  0001 C CNN
+F 3 "~" H 3150 4750 50  0001 C CNN
+	1    3150 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 4850
+Wire Wire Line
+	3150 4850 2900 4850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E678A77
+P 3150 4650
+F 0 "#PWR?" H 3150 4500 50  0001 C CNN
+F 1 "+3V3" H 3165 4823 50  0000 C CNN
+F 2 "" H 3150 4650 50  0001 C CNN
+F 3 "" H 3150 4650 50  0001 C CNN
+	1    3150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E68DC8F
+P 7000 4450
+F 0 "R?" H 7059 4496 50  0000 L CNN
+F 1 "2K2" H 7059 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7000 4450 50  0001 C CNN
+F 3 "~" H 7000 4450 50  0001 C CNN
+	1    7000 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4550
+Wire Wire Line
+	7000 4550 6250 4550
+$Comp
+L Device:R_Small R?
+U 1 1 5E68E3C7
+P 7850 4550
+F 0 "R?" H 7909 4596 50  0000 L CNN
+F 1 "2K2" H 7909 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7850 4550 50  0001 C CNN
+F 3 "~" H 7850 4550 50  0001 C CNN
+	1    7850 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 4650
+Wire Wire Line
+	7850 4650 8050 4650
+$Comp
+L Device:R_Small R?
+U 1 1 5E68E823
+P 8700 4650
+F 0 "R?" H 8759 4696 50  0000 L CNN
+F 1 "2K2" H 8759 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8700 4650 50  0001 C CNN
+F 3 "~" H 8700 4650 50  0001 C CNN
+	1    8700 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 4750
+Wire Wire Line
+	8700 4750 9000 4750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E695E10
+P 7000 4350
+F 0 "#PWR?" H 7000 4200 50  0001 C CNN
+F 1 "+3V3" H 7015 4523 50  0000 C CNN
+F 2 "" H 7000 4350 50  0001 C CNN
+F 3 "" H 7000 4350 50  0001 C CNN
+	1    7000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E696677
+P 7850 4450
+F 0 "#PWR?" H 7850 4300 50  0001 C CNN
+F 1 "+3V3" H 7865 4623 50  0000 C CNN
+F 2 "" H 7850 4450 50  0001 C CNN
+F 3 "" H 7850 4450 50  0001 C CNN
+	1    7850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E6969D2
+P 8700 4550
+F 0 "#PWR?" H 8700 4400 50  0001 C CNN
+F 1 "+3V3" H 8715 4723 50  0000 C CNN
+F 2 "" H 8700 4550 50  0001 C CNN
+F 3 "" H 8700 4550 50  0001 C CNN
+	1    8700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E69B9AF
+P 6850 2750
+F 0 "R?" H 6909 2796 50  0000 L CNN
+F 1 "2K2" H 6909 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6850 2750 50  0001 C CNN
+F 3 "~" H 6850 2750 50  0001 C CNN
+	1    6850 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 2850
+Wire Wire Line
+	6850 2850 7050 2850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E69C5D9
+P 6850 2650
+F 0 "#PWR?" H 6850 2500 50  0001 C CNN
+F 1 "+3V3" H 6865 2823 50  0000 C CNN
+F 2 "" H 6850 2650 50  0001 C CNN
+F 3 "" H 6850 2650 50  0001 C CNN
+	1    6850 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
