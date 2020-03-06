@@ -49,10 +49,8 @@ Wire Wire Line
 	4500 3250 4500 3350
 Wire Wire Line
 	3900 3050 3900 2950
-Connection ~ 3900 3050
 Wire Wire Line
 	3900 3350 3900 3450
-Connection ~ 3900 3350
 $Comp
 L Device:C_Small C30
 U 1 1 5E60BE58
