@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name synermycha-electronics)(type KiCad)(uri /home/mr_frost/synermycha-electronics)(options "")(descr ""))
+  (lib (name buzzer_LD-BZEL)(type KiCad)(uri ${KIPRJMOD}/buzzer_LD-BZEL.pretty)(options "")(descr ""))
+  (lib (name CMT-5023S-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/CMT-5023S-SMT-TR.mod)(options "")(descr ""))
+  (lib (name connector_brd2brd)(type KiCad)(uri ${KIPRJMOD}/connector_brd2brd.pretty)(options "")(descr ""))
+  (lib (name WS2812-2020)(type KiCad)(uri ${KIPRJMOD}/WS2812-2020.pretty)(options "")(descr ""))
+)

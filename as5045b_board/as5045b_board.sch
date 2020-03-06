@@ -1,0 +1,340 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Magnetic:AS5045B U?
+U 1 1 5E62A96F
+P 4700 2800
+F 0 "U?" H 4850 3350 50  0000 C CNN
+F 1 "AS5045B" H 4950 3250 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm" H 4850 2350 50  0001 L CNN
+F 3 "https://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf" H 2550 4400 50  0001 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:AS5045B U?
+U 1 1 5E62A975
+P 4700 4950
+F 0 "U?" H 4900 5500 50  0000 C CNN
+F 1 "AS5045B" H 5000 5400 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm" H 4850 4500 50  0001 L CNN
+F 3 "https://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf" H 2550 6550 50  0001 C CNN
+	1    4700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E62A97B
+P 4700 3300
+F 0 "#PWR?" H 4700 3050 50  0001 C CNN
+F 1 "GND" H 4705 3127 50  0000 C CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E62A981
+P 4700 5450
+F 0 "#PWR?" H 4700 5200 50  0001 C CNN
+F 1 "GND" H 4705 5277 50  0000 C CNN
+F 2 "" H 4700 5450 50  0001 C CNN
+F 3 "" H 4700 5450 50  0001 C CNN
+	1    4700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E62A987
+P 5750 1850
+F 0 "#PWR?" H 5750 1700 50  0001 C CNN
+F 1 "+3V3" H 5765 2023 50  0000 C CNN
+F 2 "" H 5750 1850 50  0001 C CNN
+F 3 "" H 5750 1850 50  0001 C CNN
+	1    5750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2300 4600 1850
+Wire Wire Line
+	4700 1850 4700 2300
+NoConn ~ 4200 3000
+NoConn ~ 4200 3100
+NoConn ~ 4200 2700
+NoConn ~ 5200 3100
+NoConn ~ 5200 2500
+NoConn ~ 5200 2600
+NoConn ~ 5200 2700
+NoConn ~ 4200 4850
+NoConn ~ 4200 5150
+NoConn ~ 4200 5250
+NoConn ~ 5200 5250
+NoConn ~ 5200 4850
+NoConn ~ 5200 4750
+NoConn ~ 5200 4650
+$Comp
+L Device:R_Small R?
+U 1 1 5E62A99D
+P 5400 2800
+F 0 "R?" V 5204 2800 50  0000 C CNN
+F 1 "10K" V 5295 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5400 2800 50  0001 C CNN
+F 3 "~" H 5400 2800 50  0001 C CNN
+	1    5400 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E62A9A3
+P 5400 4950
+F 0 "R?" V 5204 4950 50  0000 C CNN
+F 1 "10K" V 5295 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5400 4950 50  0001 C CNN
+F 3 "~" H 5400 4950 50  0001 C CNN
+	1    5400 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 4950 5300 4950
+Wire Wire Line
+	5300 2800 5200 2800
+Wire Wire Line
+	5500 2800 5750 2800
+Wire Wire Line
+	5750 2800 5750 1850
+Wire Wire Line
+	5750 1850 5450 1850
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5E62A9AE
+P 3500 2400
+F 0 "J?" H 3500 2750 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 2650 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Left" H 3500 2400 50  0001 C CNN
+F 3 "~" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2600 3700 2600
+Wire Wire Line
+	4200 2500 3700 2500
+Wire Wire Line
+	3700 2400 3900 2400
+Wire Wire Line
+	3900 2400 3900 2650
+Wire Wire Line
+	3700 2300 3900 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5E62A9B9
+P 3900 2650
+F 0 "#PWR?" H 3900 2400 50  0001 C CNN
+F 1 "GND" H 3905 2477 50  0000 C CNN
+F 2 "" H 3900 2650 50  0001 C CNN
+F 3 "" H 3900 2650 50  0001 C CNN
+	1    3900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E62A9BF
+P 3900 2250
+F 0 "#PWR?" H 3900 2100 50  0001 C CNN
+F 1 "+3V3" H 3915 2423 50  0000 C CNN
+F 2 "" H 3900 2250 50  0001 C CNN
+F 3 "" H 3900 2250 50  0001 C CNN
+	1    3900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E62A9C5
+P 5050 1950
+F 0 "C?" H 5142 1996 50  0000 L CNN
+F 1 "10uF" H 5142 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 1950 50  0001 C CNN
+F 3 "~" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E62A9CB
+P 5450 1950
+F 0 "C?" H 5542 1996 50  0000 L CNN
+F 1 "0.1uF" H 5542 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5450 1950 50  0001 C CNN
+F 3 "~" H 5450 1950 50  0001 C CNN
+	1    5450 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1850 5050 1850
+Connection ~ 5450 1850
+Wire Wire Line
+	4600 1850 4700 1850
+Connection ~ 5050 1850
+Connection ~ 4700 1850
+Wire Wire Line
+	4700 1850 5050 1850
+Connection ~ 5750 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5E62A9D8
+P 5050 2050
+F 0 "#PWR?" H 5050 1800 50  0001 C CNN
+F 1 "GND" H 5055 1877 50  0000 C CNN
+F 2 "" H 5050 2050 50  0001 C CNN
+F 3 "" H 5050 2050 50  0001 C CNN
+	1    5050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E62A9DE
+P 5450 2050
+F 0 "#PWR?" H 5450 1800 50  0001 C CNN
+F 1 "GND" H 5455 1877 50  0000 C CNN
+F 2 "" H 5450 2050 50  0001 C CNN
+F 3 "" H 5450 2050 50  0001 C CNN
+	1    5450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2250 3900 2300
+Wire Wire Line
+	4200 4750 3700 4750
+Wire Wire Line
+	4200 4650 3700 4650
+Wire Wire Line
+	3700 4550 3900 4550
+Wire Wire Line
+	3900 4550 3900 4800
+Wire Wire Line
+	3700 4450 3900 4450
+$Comp
+L power:GND #PWR?
+U 1 1 5E62A9EA
+P 3900 4800
+F 0 "#PWR?" H 3900 4550 50  0001 C CNN
+F 1 "GND" H 3905 4627 50  0000 C CNN
+F 2 "" H 3900 4800 50  0001 C CNN
+F 3 "" H 3900 4800 50  0001 C CNN
+	1    3900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E62A9F0
+P 3900 4400
+F 0 "#PWR?" H 3900 4250 50  0001 C CNN
+F 1 "+3V3" H 3915 4573 50  0000 C CNN
+F 2 "" H 3900 4400 50  0001 C CNN
+F 3 "" H 3900 4400 50  0001 C CNN
+	1    3900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4400 3900 4450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E62A9F7
+P 5750 4000
+F 0 "#PWR?" H 5750 3850 50  0001 C CNN
+F 1 "+3V3" H 5765 4173 50  0000 C CNN
+F 2 "" H 5750 4000 50  0001 C CNN
+F 3 "" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4950 5750 4950
+Wire Wire Line
+	5750 4950 5750 4000
+Wire Wire Line
+	5750 4000 5450 4000
+Connection ~ 5750 4000
+Wire Wire Line
+	4600 4450 4600 4000
+Wire Wire Line
+	4700 4000 4700 4450
+$Comp
+L Device:C_Small C?
+U 1 1 5E62AA03
+P 5050 4100
+F 0 "C?" H 5142 4146 50  0000 L CNN
+F 1 "10uF" H 5142 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 4100 50  0001 C CNN
+F 3 "~" H 5050 4100 50  0001 C CNN
+	1    5050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E62AA09
+P 5450 4100
+F 0 "C?" H 5542 4146 50  0000 L CNN
+F 1 "0.1uF" H 5542 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5450 4100 50  0001 C CNN
+F 3 "~" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4000 5050 4000
+Connection ~ 5450 4000
+Wire Wire Line
+	4600 4000 4700 4000
+Connection ~ 5050 4000
+Connection ~ 4700 4000
+Wire Wire Line
+	4700 4000 5050 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5E62AA15
+P 5050 4200
+F 0 "#PWR?" H 5050 3950 50  0001 C CNN
+F 1 "GND" H 5055 4027 50  0000 C CNN
+F 2 "" H 5050 4200 50  0001 C CNN
+F 3 "" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E62AA1B
+P 5450 4200
+F 0 "#PWR?" H 5450 3950 50  0001 C CNN
+F 1 "GND" H 5455 4027 50  0000 C CNN
+F 2 "" H 5450 4200 50  0001 C CNN
+F 3 "" H 5450 4200 50  0001 C CNN
+	1    5450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5E62AA27
+P 3500 4550
+F 0 "J?" H 3500 4900 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 4800 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Left" H 3500 4550 50  0001 C CNN
+F 3 "~" H 3500 4550 50  0001 C CNN
+	1    3500 4550
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
