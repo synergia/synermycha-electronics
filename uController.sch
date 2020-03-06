@@ -107,11 +107,11 @@ Wire Wire Line
 	3650 3100 3650 3200
 Text HLabel 2050 1700 0    50   Input ~ 0
 ~RESET
-Text HLabel 8250 1400 0    50   Input ~ 0
+Text HLabel 8750 950  0    50   Input ~ 0
 ~BUTTON_UP
-Text HLabel 8250 1500 0    50   Input ~ 0
+Text HLabel 8750 1050 0    50   Input ~ 0
 ~BUTTON_DOWN
-Text HLabel 8250 1600 0    50   Input ~ 0
+Text HLabel 8750 1150 0    50   Input ~ 0
 ~BUTTON_OK
 Text HLabel 8900 4550 2    50   Output ~ 0
 VL53L0x_SCL
