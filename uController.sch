@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L synermycha-electronics-rescue:Crystal_GND24-Device Y1
-U 1 1 5E5FF1B5
-P 3900 3200
-F 0 "Y1" V 3854 3331 50  0000 L CNN
-F 1 "16MHz, 8pF" V 3945 3331 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 3900 3200 50  0001 C CNN
-F 3 "~" H 3900 3200 50  0001 C CNN
-	1    3900 3200
-	0    1    1    0   
-$EndComp
-$Comp
 L MCU_ST_STM32F4:STM32F446RETx U13
 U 1 1 5E5FC006
 P 5550 3550
@@ -1250,4 +1239,17 @@ F 3 "" H 9950 2850 50  0001 C CNN
 	1    9950 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5E6F9688
+P 3900 3200
+F 0 "Y1" V 3854 3330 50  0000 L CNN
+F 1 "16Mhz, 8pF" V 3945 3330 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 3900 3200 50  0001 C CNN
+F 3 "~" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	0    1    1    0   
+$EndComp
+Connection ~ 3900 3050
+Connection ~ 3900 3350
 $EndSCHEMATC
