@@ -108,23 +108,23 @@ DRV8835_PWM_B
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5E700310
-P 6400 3100
-F 0 "J2" H 6480 3092 50  0000 L CNN
-F 1 "Conn_01x02" H 6480 3001 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 6400 3100 50  0001 C CNN
-F 3 "~" H 6400 3100 50  0001 C CNN
-	1    6400 3100
-	1    0    0    -1  
+P 6400 3200
+F 0 "J2" H 6480 3192 50  0000 L CNN
+F 1 "Conn_01x02" H 6480 3101 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 6400 3200 50  0001 C CNN
+F 3 "~" H 6400 3200 50  0001 C CNN
+	1    6400 3200
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5E70076C
-P 6400 3400
-F 0 "J3" H 6480 3392 50  0000 L CNN
-F 1 "Conn_01x02" H 6480 3301 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 6400 3400 50  0001 C CNN
-F 3 "~" H 6400 3400 50  0001 C CNN
-	1    6400 3400
-	1    0    0    -1  
+P 6400 3500
+F 0 "J3" H 6480 3492 50  0000 L CNN
+F 1 "Conn_01x02" H 6480 3401 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 6400 3500 50  0001 C CNN
+F 3 "~" H 6400 3500 50  0001 C CNN
+	1    6400 3500
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

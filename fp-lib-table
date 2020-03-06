@@ -4,4 +4,6 @@
   (lib (name CMT-5023S-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/footprints/CMT-5023S-SMT-TR.mod)(options "")(descr ""))
   (lib (name connector_brd2brd)(type KiCad)(uri ${KIPRJMOD}/footprints/connector_brd2brd.pretty)(options "")(descr ""))
   (lib (name WS2812-2020)(type KiCad)(uri ${KIPRJMOD}/footprints/WS2812-2020.pretty)(options "")(descr ""))
+  (lib (name holes)(type KiCad)(uri ${KIPRJMOD}/footprints/holes.pretty)(options "")(descr ""))
+  (lib (name mocowanie_silników)(type KiCad)(uri ${KIPRJMOD}/footprints/mocowanie_silników.pretty)(options "")(descr ""))
 )
