@@ -121,7 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3100 3550 3000
 Wire Wire Line
-	3550 3100 2250 3100
+	3550 3100 2750 3100
 Connection ~ 3550 3100
 $Comp
 L Connector_Generic:Conn_01x02 J1
@@ -578,4 +578,30 @@ F 3 "~" H 2650 2300 50  0001 C CNN
 	1    2650 2300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:LED_Small D14
+U 1 1 5E6EB1F4
+P 2750 2800
+F 0 "D14" V 2704 2898 50  0000 L CNN
+F 1 "RED" V 2795 2898 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" V 2750 2800 50  0001 C CNN
+F 3 "~" V 2750 2800 50  0001 C CNN
+	1    2750 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 2750 2700
+$Comp
+L Device:R_Small R33
+U 1 1 5E6EC105
+P 2750 3000
+F 0 "R33" H 2809 3046 50  0000 L CNN
+F 1 "calculate" H 2809 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2750 3000 50  0001 C CNN
+F 3 "~" H 2750 3000 50  0001 C CNN
+	1    2750 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 3100
+Wire Wire Line
+	2750 3100 2250 3100
 $EndSCHEMATC
