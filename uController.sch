@@ -1224,9 +1224,11 @@ F 3 "" H 7850 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND24 Y1
+L synermycha-electronics-rescue:Crystal_GND24-Device Y1
 U 1 1 5E6F9688
 P 3900 3200
+AR Path="/5E6F9688" Ref="Y1"  Part="1" 
+AR Path="/5E5F551F/5E6F9688" Ref="Y1"  Part="1" 
 F 0 "Y1" V 3854 3330 50  0000 L CNN
 F 1 "16Mhz, 8pF" V 3945 3330 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 3900 3200 50  0001 C CNN

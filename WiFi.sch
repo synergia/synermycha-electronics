@@ -31,7 +31,7 @@ F 3 "~" H 3000 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_USB:CP2102N-A01-GQFN28 U8
+L synermycha-electronics-rescue:CP2102N-A01-GQFN28-Interface_USB U8
 U 1 1 5E702C74
 P 4300 5200
 AR Path="/5E5F55AD/5E702C74" Ref="U8"  Part="1" 
