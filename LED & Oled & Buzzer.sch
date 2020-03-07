@@ -139,7 +139,7 @@ F 1 "RED, 5mA" V 6645 1798 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 6600 1700 50  0001 C CNN
 F 3 "~" V 6600 1700 50  0001 C CNN
 	1    6600 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0196
@@ -176,7 +176,7 @@ F 1 "RED, 5mA" V 7045 1798 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 7000 1700 50  0001 C CNN
 F 3 "~" V 7000 1700 50  0001 C CNN
 	1    7000 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0197
@@ -209,7 +209,7 @@ F 1 "RED, 5mA" V 7395 1798 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 7350 1700 50  0001 C CNN
 F 3 "~" V 7350 1700 50  0001 C CNN
 	1    7350 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0198
@@ -242,7 +242,7 @@ F 1 "RED, 5mA" V 7745 1798 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 7700 1700 50  0001 C CNN
 F 3 "~" V 7700 1700 50  0001 C CNN
 	1    7700 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0199
@@ -344,7 +344,7 @@ F 1 "RED" V 8095 1798 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 8050 1700 50  0001 C CNN
 F 3 "~" V 8050 1700 50  0001 C CNN
 	1    8050 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R27
@@ -414,7 +414,7 @@ F 1 "RED, 5mA" V 8445 1798 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 8400 1700 50  0001 C CNN
 F 3 "~" V 8400 1700 50  0001 C CNN
 	1    8400 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8400 2350 6400 2350
