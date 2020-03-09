@@ -1,0 +1,70 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/mr_frost/synermycha-electronics/synermycha-electronics.sch</h1>
+    <p>pon, 9 mar 2020, 11:45:07</p>
+    <p>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</p>
+    <p><b>Component Count:</b>144</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>BZ1</td><td>1</td><td>CMT-5023S</td><td>Device:Buzzer</td><td>CMT-5023S-SMT-TR:CMT5023SSMTTR</td><td>Buzzer, polarized</td><td></td></tr>
+    <tr><td>C1, C3, C4, C5, C14, C16, C20, C26, C37</td><td>9</td><td>10uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C2, C22</td><td>2</td><td>100uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C6, C7, C8, C10, C11, C12, C13, C21</td><td>8</td><td>1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C9, C15, C17, C18, C19, C23, C24, C25, C28, C29, C32, C33, C34, C36</td><td>14</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C27</td><td>1</td><td>4.7uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C30, C31</td><td>2</td><td>8pF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C35</td><td>1</td><td>2.2uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>BAT54WS</td><td>Device:D_Small</td><td>Diode_SMD:D_SOD-323</td><td>Diode, small symbol</td><td></td></tr>
+    <tr><td>D2, D3, D4, D5, D14, D23, D24</td><td>7</td><td>RED, 5mA</td><td>Device:LED_Small</td><td>LED_SMD:LED_0402_1005Metric</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>D6</td><td>1</td><td>RED</td><td>Device:LED_Small</td><td>LED_SMD:LED_0402_1005Metric</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>D7, D8, D9, D10, D11, D12, D13, D20, D21, D22</td><td>10</td><td>WS2812B</td><td>LED:WS2812B</td><td>WS2812-2020:WS28122020</td><td>RGB LED with integrated controller</td><td></td></tr>
+    <tr><td>D15, D16, D17, D18, D19</td><td>5</td><td>YELLOW</td><td>Device:LED_Small</td><td>LED_SMD:LED_0402_1005Metric</td><td>Light emitting diode, small symbol</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>BATT</td><td>Connector_Generic:Conn_01x02</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2, J3</td><td>2</td><td>Conn_01x02</td><td>Connector_Generic:Conn_01x02</td><td>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4, J11</td><td>2</td><td>USB_B_Micro</td><td>Connector:USB_B_Micro</td><td>Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal</td><td>USB Micro Type B connector</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>ESP_01</td><td>Connector_Generic:Conn_02x04_Odd_Even</td><td>Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD</td><td>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>A1250WV-S-4P</td><td>Connector_Generic:Conn_01x04</td><td>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J7, J8</td><td>2</td><td>Conn_01x04</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Left</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12, J13, J14, J15, J16</td><td>5</td><td>Conn_01x05</td><td>Connector_Generic:Conn_01x05</td><td>connector_brd2brd:01x05_1.0x0.5mm_SMD</td><td>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J17</td><td>1</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x03</td><td>Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>Q1, Q7</td><td>2</td><td>IRLML9301TRPBF</td><td>Device:Q_PMOS_GSD</td><td>Package_TO_SOT_SMD:SOT-23</td><td>P-MOSFET transistor, gate/source/drain</td><td></td></tr>
+    <tr><td>Q2, Q3, Q4</td><td>3</td><td>BC847</td><td>Transistor_BJT:BC847</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.1A Ic, 45V Vce, NPN Transistor, SOT-23</td><td></td></tr>
+    <tr><td>Q5, Q6</td><td>2</td><td>IRLML2060TRPBF</td><td>Device:Q_NMOS_GSD</td><td>Package_TO_SOT_SMD:SOT-23</td><td>N-MOSFET transistor, gate/source/drain</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>2K8</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>1K6</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R3, R53</td><td>2</td><td>866R</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R4</td><td>1</td><td>3K32</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R5</td><td>1</td><td>620R</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>750R</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R7, R8, R9, R10, R18, R19, R29, R55</td><td>8</td><td>10K</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R11, R12, R13, R30, R31, R32, R34, R35</td><td>8</td><td>2K7</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R14</td><td>1</td><td>2K2</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R15</td><td>1</td><td>3K3</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R16, R17</td><td>2</td><td>12K</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R20</td><td>1</td><td>3K9</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R21</td><td>1</td><td>33R</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R22, R23, R24, R25, R26, R27, R28</td><td>7</td><td>270</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R33</td><td>1</td><td>1.3K</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R42, R43, R46, R49, R50</td><td>5</td><td>140R</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R51, R52</td><td>2</td><td>100K</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R54</td><td>1</td><td>2K49</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>SW1, SW2, SW3, SW4</td><td>4</td><td>DTSM32N</td><td>Switch:SW_Push</td><td>Button_Switch_SMD:SW_SPST_B3U-1000P</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>U1, U2, U3, U5</td><td>4</td><td>LM1117LDX</td><td>LM1117:LM1117LDX</td><td>Package_SON:WSON-8_4x4mm_P0.8mm</td><td></td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>DRV8835</td><td>drv8835:DRV8835</td><td>Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65</td><td></td><td></td></tr>
+    <tr><td>U8</td><td>1</td><td>CP2102N-A01-GQFN28</td><td>synermycha-electronics-rescue:CP2102N-A01-GQFN28-Interface_USB</td><td>Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</td><td></td><td></td></tr>
+    <tr><td>U9</td><td>1</td><td>TS5A3167DBVR</td><td>Analog_Switch:TS5A3166DBVR</td><td>Package_TO_SOT_SMD:SOT-23-5</td><td>Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SOT-23-5</td><td></td></tr>
+    <tr><td>U12</td><td>1</td><td>MPU-9250</td><td>Sensor_Motion:MPU-9250</td><td>Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</td><td>InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI</td><td></td></tr>
+    <tr><td>U13</td><td>1</td><td>STM32F446RETx</td><td>MCU_ST_STM32F4:STM32F446RETx</td><td>Package_QFP:LQFP-64_10x10mm_P0.5mm</td><td>ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64</td><td></td></tr>
+    <tr><td>U14</td><td>1</td><td>STM14_SW</td><td>Connector_stlink_V3:STM14_SW</td><td>Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD</td><td></td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>16Mhz, 8pF</td><td>synermycha-electronics-rescue:Crystal_GND24-Device</td><td>Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm</td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
