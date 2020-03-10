@@ -19,7 +19,7 @@ U 1 1 5E62A9AE
 P 3700 3100
 F 0 "J1" H 3700 3450 50  0000 C CNN
 F 1 "Conn_01x04" H 3700 3350 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Left" H 3700 3100 50  0001 C CNN
+F 2 "connector_brd2brd:01x04_1.0x0.5mm_SMD" H 3700 3100 50  0001 C CNN
 F 3 "~" H 3700 3100 50  0001 C CNN
 	1    3700 3100
 	-1   0    0    -1  
@@ -82,7 +82,7 @@ U 1 1 5E62AA27
 P 3700 4400
 F 0 "J2" H 3700 4750 50  0000 C CNN
 F 1 "Conn_01x04" H 3700 4650 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Left" H 3700 4400 50  0001 C CNN
+F 2 "connector_brd2brd:01x04_1.0x0.5mm_SMD" H 3700 4400 50  0001 C CNN
 F 3 "~" H 3700 4400 50  0001 C CNN
 	1    3700 4400
 	-1   0    0    -1  
@@ -291,7 +291,6 @@ F 3 "~" H 5150 3200 50  0001 C CNN
 	1    5150 3200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 3300
 $Comp
 L Device:R_Small R9
 U 1 1 5E68D781
@@ -303,7 +302,6 @@ F 3 "~" H 4900 3100 50  0001 C CNN
 	1    4900 3100
 	1    0    0    -1  
 $EndComp
-Connection ~ 4900 3200
 $Comp
 L Device:R_Small R10
 U 1 1 5E68DADA
@@ -315,7 +313,6 @@ F 3 "~" H 4900 4400 50  0001 C CNN
 	1    4900 4400
 	1    0    0    -1  
 $EndComp
-Connection ~ 4900 4500
 $Comp
 L Device:R_Small R12
 U 1 1 5E68E0E0
@@ -327,7 +324,6 @@ F 3 "~" H 5150 4500 50  0001 C CNN
 	1    5150 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 4600
 $Comp
 L power:+5V #PWR0111
 U 1 1 5E68E26E
@@ -483,10 +479,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 4600 3900 4600
 Connection ~ 4050 4800
-Wire Wire Line
-	4050 4600 5150 4600
-Wire Wire Line
-	4350 4500 4900 4500
 $Comp
 L power:GND #PWR0113
 U 1 1 5E6A7DFF
@@ -526,10 +518,6 @@ Wire Wire Line
 	4250 3400 4350 3400
 Connection ~ 4350 3400
 Wire Wire Line
-	4350 3200 4900 3200
-Wire Wire Line
-	4050 3300 5150 3300
-Wire Wire Line
 	3900 3100 4800 3100
 Wire Wire Line
 	3900 3000 4800 3000
@@ -555,4 +543,26 @@ F 3 "" H 4050 3700 50  0001 C CNN
 	1    4050 3700
 	1    0    0    -1  
 $EndComp
+Connection ~ 5150 3300
+Wire Wire Line
+	4050 3300 5150 3300
+Connection ~ 4900 3200
+Wire Wire Line
+	4350 3200 4900 3200
+Wire Wire Line
+	5150 4600 4550 4600
+Wire Wire Line
+	4550 4600 4550 4500
+Wire Wire Line
+	4550 4500 4350 4500
+Connection ~ 5150 4600
+Wire Wire Line
+	4650 4500 4650 4450
+Wire Wire Line
+	4650 4450 4050 4450
+Wire Wire Line
+	4050 4450 4050 4600
+Wire Wire Line
+	4650 4500 4900 4500
+Connection ~ 4900 4500
 $EndSCHEMATC
