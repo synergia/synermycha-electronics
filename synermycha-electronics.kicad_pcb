@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 54)
+    (drawings 55)
     (tracks 1727)
     (zones 0)
     (modules 158)
@@ -7535,6 +7535,9 @@
     )
   )
 
+  (gr_text "v1.0\ns.mroz, b.ostr, \ns.dac\n@PWr 2020" (at 13.5 181) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)) (justify left))
+  )
   (gr_text ↑ (at 39.8 197 270) (layer F.SilkS) (tstamp 5E690A14)
     (effects (font (size 0.75 1) (thickness 0.1875)))
   )
