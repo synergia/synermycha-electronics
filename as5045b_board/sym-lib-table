@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name drv8835)(type Legacy)(uri ${KIPRJMOD}/drv8835.lib)(options "")(descr ""))
+  (lib (name ts5a3167dbvr)(type Legacy)(uri ${KIPRJMOD}/ts5a3167dbvr.lib)(options "")(descr ""))
+  (lib (name LM1117)(type Legacy)(uri ${KIPRJMOD}/LM1117.lib)(options "")(descr ""))
+  (lib (name p-mos)(type Legacy)(uri ${KIPRJMOD}/p-mos.lib)(options "")(descr ""))
+  (lib (name Connector_stlink_V3)(type Legacy)(uri ${KIPRJMOD}/Connector_stlink_V3.lib)(options "")(descr ""))
+  (lib (name ams)(type Legacy)(uri G:/Gits/synermycha-electronics/libs/ams.lib)(options "")(descr ""))
+)

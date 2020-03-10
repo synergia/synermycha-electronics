@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8835
+F http://www.ti.com/lit/ds/symlink/drv8835.pdf
+$ENDCMP
+#
+#End Doc Library

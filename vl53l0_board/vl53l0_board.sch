@@ -1,0 +1,147 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VL53L0X:VL53L0X U?
+U 1 1 5E775FED
+P 7250 2700
+AR Path="/5E5F5567/5E775FED" Ref="U?"  Part="1" 
+AR Path="/5E775FED" Ref="U1"  Part="1" 
+F 0 "U1" H 7250 3365 50  0000 C CNN
+F 1 "VL53L0X" H 7250 3274 50  0000 C CNN
+F 2 "synermycha-electronics:SENSOR_VL53L0X" H 7250 2700 50  0001 L BNN
+F 3 "1.0" H 7250 2700 50  0001 L BNN
+F 4 "Manufacturer Recommendation" H 7250 2700 50  0001 L BNN "Field4"
+F 5 "ST Microelectronics" H 7250 2700 50  0001 L BNN "Field5"
+	1    7250 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2300 8150 2400
+Wire Wire Line
+	8150 2300 8150 2200
+Connection ~ 8150 2300
+$Comp
+L Device:R_Small R?
+U 1 1 5E77600D
+P 8350 2600
+AR Path="/5E5F5567/5E77600D" Ref="R?"  Part="1" 
+AR Path="/5E77600D" Ref="R1"  Part="1" 
+F 0 "R1" V 8154 2600 50  0000 C CNN
+F 1 "47K" V 8245 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8350 2600 50  0001 C CNN
+F 3 "~" H 8350 2600 50  0001 C CNN
+	1    8350 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 2600 8550 2600
+Wire Wire Line
+	8550 2600 8550 2300
+Wire Wire Line
+	8550 2300 8150 2300
+Wire Wire Line
+	7950 2300 8150 2300
+Wire Wire Line
+	7950 2400 8150 2400
+Wire Wire Line
+	7950 2600 8250 2600
+Wire Wire Line
+	7950 3000 8050 3000
+Wire Wire Line
+	7950 3100 8050 3100
+Wire Wire Line
+	8050 3100 8050 3000
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5E776049
+P 8150 2200
+AR Path="/5E5F5567/5E776049" Ref="#PWR?"  Part="1" 
+AR Path="/5E776049" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 8150 2050 50  0001 C CNN
+F 1 "+2V8" H 8165 2373 50  0000 C CNN
+F 2 "" H 8150 2200 50  0001 C CNN
+F 3 "" H 8150 2200 50  0001 C CNN
+	1    8150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2700 6550 2700
+Wire Wire Line
+	6250 2800 6550 2800
+Wire Wire Line
+	6550 2600 6150 2600
+Wire Wire Line
+	6150 2400 6150 2600
+Wire Wire Line
+	6250 2200 6250 2800
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5E776064
+P 5250 2200
+AR Path="/5E5F5567/5E776064" Ref="J?"  Part="1" 
+AR Path="/5E776064" Ref="J1"  Part="1" 
+F 0 "J1" H 5168 1775 50  0000 C CNN
+F 1 "Conn_01x05" H 5168 1866 50  0000 C CNN
+F 2 "" H 5250 2200 50  0001 C CNN
+F 3 "~" H 5250 2200 50  0001 C CNN
+	1    5250 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5E77606A
+P 5600 1900
+AR Path="/5E5F5567/5E77606A" Ref="#PWR?"  Part="1" 
+AR Path="/5E77606A" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 5600 1750 50  0001 C CNN
+F 1 "+2V8" H 5615 2073 50  0000 C CNN
+F 2 "" H 5600 1900 50  0001 C CNN
+F 3 "" H 5600 1900 50  0001 C CNN
+	1    5600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2000 5600 2000
+Wire Wire Line
+	5600 2000 5600 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5E776072
+P 5450 2300
+AR Path="/5E5F5567/5E776072" Ref="#PWR?"  Part="1" 
+AR Path="/5E776072" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 5450 2050 50  0001 C CNN
+F 1 "GND" H 5455 2127 50  0000 C CNN
+F 2 "" H 5450 2300 50  0001 C CNN
+F 3 "" H 5450 2300 50  0001 C CNN
+	1    5450 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 2100 6350 2700
+Text Label 5700 2100 0    50   ~ 0
+LOCAL_SCL
+Text Label 5700 2200 0    50   ~ 0
+LOCAL_SDA
+Text Label 5700 2400 0    50   ~ 0
+XSHUT_[1]
+Wire Wire Line
+	5450 2100 6350 2100
+Wire Wire Line
+	5450 2200 6250 2200
+Wire Wire Line
+	5450 2400 6150 2400
+$EndSCHEMATC
