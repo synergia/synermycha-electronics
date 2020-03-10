@@ -377,7 +377,7 @@ F 1 "RED, 5mA" V 8945 1798 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 8900 1700 50  0001 C CNN
 F 3 "~" V 8900 1700 50  0001 C CNN
 	1    8900 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8900 2600 6400 2600

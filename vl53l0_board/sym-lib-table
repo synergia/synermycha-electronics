@@ -4,4 +4,5 @@
   (lib (name LM1117)(type Legacy)(uri ${KIPRJMOD}/LM1117.lib)(options "")(descr ""))
   (lib (name p-mos)(type Legacy)(uri ${KIPRJMOD}/p-mos.lib)(options "")(descr ""))
   (lib (name Connector_stlink_V3)(type Legacy)(uri ${KIPRJMOD}/Connector_stlink_V3.lib)(options "")(descr ""))
+  (lib (name VL53L0X)(type Legacy)(uri ${KIPRJMOD}/VL53L0X.lib)(options "")(descr ""))
 )
