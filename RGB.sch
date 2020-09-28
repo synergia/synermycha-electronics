@@ -112,8 +112,6 @@ Wire Wire Line
 Connection ~ 6650 4450
 Wire Wire Line
 	6650 4450 6050 4450
-Wire Wire Line
-	6650 3750 6650 3550
 Connection ~ 6650 3550
 Wire Wire Line
 	7250 4350 7250 4450
@@ -121,14 +119,10 @@ Connection ~ 7250 4450
 Wire Wire Line
 	7250 4450 6650 4450
 Wire Wire Line
-	7250 3750 7250 3550
-Wire Wire Line
 	6650 3550 7250 3550
 Connection ~ 7250 3550
 Wire Wire Line
 	7250 3550 7850 3550
-Wire Wire Line
-	7850 3750 7850 3550
 Connection ~ 7850 3550
 Wire Wire Line
 	7850 3550 8450 3550
@@ -173,19 +167,8 @@ $EndComp
 $Comp
 L synermycha-electronics:WS2812B_2020 D10
 U 1 1 5F6EEC01
-P 4850 4050
-F 0 "D10" H 4950 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 4550 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 4900 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 3675 50  0001 L TNN
-	1    4850 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D11
-U 1 1 5F6EF298
 P 5450 4050
-F 0 "D11" H 5550 4300 50  0000 L CNN
+F 0 "D10" H 5550 4300 50  0000 L CNN
 F 1 "WS2812B_2020" H 5150 4400 50  0000 L CNN
 F 2 "WS2812-2020:WS28122020" H 5500 3750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5550 3675 50  0001 L TNN
@@ -193,21 +176,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5550 3675 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L synermycha-electronics:WS2812B_2020 D12
-U 1 1 5F6EF9B8
-P 6050 4050
-F 0 "D12" H 6150 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 5750 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 6100 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 3675 50  0001 L TNN
-	1    6050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D13
-U 1 1 5F6EFDC7
+L synermycha-electronics:WS2812B_2020 D11
+U 1 1 5F6EF298
 P 6650 4050
-F 0 "D13" H 6750 4300 50  0000 L CNN
+F 0 "D11" H 6750 4300 50  0000 L CNN
 F 1 "WS2812B_2020" H 6350 4400 50  0000 L CNN
 F 2 "WS2812-2020:WS28122020" H 6700 3750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 3675 50  0001 L TNN
@@ -215,14 +187,36 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 3675 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L synermycha-electronics:WS2812B_2020 D21
-U 1 1 5F6F0DF1
+L synermycha-electronics:WS2812B_2020 D12
+U 1 1 5F6EF9B8
+P 7250 4050
+F 0 "D12" H 7350 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 6950 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 7300 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7350 3675 50  0001 L TNN
+	1    7250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D13
+U 1 1 5F6EFDC7
 P 7850 4050
-F 0 "D21" H 7950 4300 50  0000 L CNN
+F 0 "D13" H 7950 4300 50  0000 L CNN
 F 1 "WS2812B_2020" H 7550 4400 50  0000 L CNN
 F 2 "WS2812-2020:WS28122020" H 7900 3750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 3675 50  0001 L TNN
 	1    7850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D21
+U 1 1 5F6F0DF1
+P 6050 4050
+F 0 "D21" H 6150 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 5750 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 6100 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 3675 50  0001 L TNN
+	1    6050 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -239,12 +233,18 @@ $EndComp
 $Comp
 L synermycha-electronics:WS2812B_2020 D20
 U 1 1 5F6F18EE
-P 7250 4050
-F 0 "D20" H 7350 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 6950 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 7300 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7350 3675 50  0001 L TNN
-	1    7250 4050
+P 4850 4050
+F 0 "D20" H 4950 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 4550 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 4900 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 3675 50  0001 L TNN
+	1    4850 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 3550 6650 3750
+Wire Wire Line
+	7250 3550 7250 3750
+Wire Wire Line
+	7850 3550 7850 3750
 $EndSCHEMATC
