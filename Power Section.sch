@@ -106,16 +106,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5E80D37A
-P 1550 2700
-F 0 "J1" H 1468 2917 50  0000 C CNN
-F 1 "BATT" H 1468 2826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1550 2700 50  0001 C CNN
-F 3 "~" H 1550 2700 50  0001 C CNN
-	1    1550 2700
+P 1250 2700
+F 0 "J1" H 1168 2917 50  0000 C CNN
+F 1 "BATT" H 1168 2826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 2700 50  0001 C CNN
+F 3 "~" H 1250 2700 50  0001 C CNN
+	1    1250 2700
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 2800 1900 2800
 Wire Wire Line
 	3800 2900 4200 2900
 Connection ~ 3800 2900
@@ -370,12 +368,12 @@ $EndComp
 $Comp
 L power:GND #PWR0195
 U 1 1 5E892532
-P 1900 3550
-F 0 "#PWR0195" H 1900 3300 50  0001 C CNN
-F 1 "GND" H 1905 3377 50  0000 C CNN
-F 2 "" H 1900 3550 50  0001 C CNN
-F 3 "" H 1900 3550 50  0001 C CNN
-	1    1900 3550
+P 1800 3550
+F 0 "#PWR0195" H 1800 3300 50  0001 C CNN
+F 1 "GND" H 1805 3377 50  0000 C CNN
+F 2 "" H 1800 3550 50  0001 C CNN
+F 3 "" H 1800 3550 50  0001 C CNN
+	1    1800 3550
 	1    0    0    -1  
 $EndComp
 Text Label 1800 2700 0    50   ~ 0
@@ -426,8 +424,6 @@ F 3 "~" H 2850 3150 50  0001 C CNN
 	1    2850 3150
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	2100 2700 1750 2700
 $Comp
 L Device:R_Small R51
 U 1 1 5E671F2F
@@ -440,17 +436,12 @@ F 3 "~" H 2550 3150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	1900 2800 1900 3550
-Wire Wire Line
 	3800 3100 3800 3550
-Connection ~ 1900 3550
+Connection ~ 1800 3550
 Wire Wire Line
 	3050 3400 3050 3550
 Wire Wire Line
 	3050 3550 3550 3550
-Wire Wire Line
-	1900 3550 3050 3550
-Connection ~ 3050 3550
 Wire Wire Line
 	3350 2700 3550 2700
 Wire Wire Line
@@ -557,4 +548,58 @@ Wire Notes Line
 	3850 2600 3750 2600
 Text Notes 3550 2500 0    50   ~ 0
 1:3 voltage divider
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5F9516BF
+P 1250 3100
+F 0 "J5" H 1168 3317 50  0000 C CNN
+F 1 "BATT" H 1168 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 3100 50  0001 C CNN
+F 3 "~" H 1250 3100 50  0001 C CNN
+	1    1250 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5F956258
+P 1600 2700
+F 0 "J9" H 1518 2917 50  0000 C CNN
+F 1 "BATT" H 1518 2826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 2700 50  0001 C CNN
+F 3 "~" H 1600 2700 50  0001 C CNN
+	1    1600 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5F95794D
+P 1600 3100
+F 0 "J10" H 1518 3317 50  0000 C CNN
+F 1 "BATT" H 1518 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 3100 50  0001 C CNN
+F 3 "~" H 1600 3100 50  0001 C CNN
+	1    1600 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2700 1800 2700
+Connection ~ 1800 2700
+Wire Wire Line
+	1450 2800 1800 2800
+Wire Wire Line
+	1800 2800 1800 3100
+Connection ~ 1800 2800
+Wire Wire Line
+	1450 3100 1800 3100
+Connection ~ 1800 3100
+Wire Wire Line
+	1450 3200 1800 3200
+Connection ~ 1800 3200
+Wire Wire Line
+	1800 3200 1800 3550
+Wire Wire Line
+	1800 2700 2100 2700
+Wire Wire Line
+	1800 3550 3050 3550
+Connection ~ 3050 3550
 $EndSCHEMATC

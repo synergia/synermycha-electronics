@@ -81,9 +81,9 @@ F 3 "" H 3600 4700 50  0001 C CNN
 	1    3600 4700
 	-1   0    0    -1  
 $EndComp
-Text HLabel 3500 2400 0    50   Output ~ 0
-ENC_L_A
 Text HLabel 3500 2500 0    50   Output ~ 0
+ENC_L_A
+Text HLabel 3500 2400 0    50   Output ~ 0
 ENC_L_B
 Text HLabel 3500 4550 0    50   Output ~ 0
 ENC_R_A
