@@ -1079,12 +1079,14 @@ F 3 "" H 7850 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle J4
+L synermycha-electronics-rescue:USB_C_Receptacle-Connector J4
 U 1 1 5F661DD8
 P 10200 3100
+AR Path="/5F661DD8" Ref="J4"  Part="1" 
+AR Path="/5E5F551F/5F661DD8" Ref="J4"  Part="1" 
 F 0 "J4" H 9770 2889 50  0000 R CNN
 F 1 "USB_C_Receptacle" H 9770 2798 50  0000 R CNN
-F 2 "" H 10350 3100 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 10350 3100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10350 3100 50  0001 C CNN
 	1    10200 3100
 	-1   0    0    -1  

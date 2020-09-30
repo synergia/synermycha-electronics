@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-30032017-123672";"";
+"REFERENCE";"AUSB1-DFN-PTR9";"";
+"TraceParts.PartTitle";"USB3.1 style C female, right angle, THT/SMD, 24pin, 3A";"";
+"TraceParts.InstanceId";"10-30032017-123672CTRIZDDU3Z0JRUW0QLVXBPH05";"";
+"DESIGN";"USB3.1 style C female, right angle, THT/SMD, 24pin, 3A";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"ASSMANN WSW components";"";
+"TraceParts.PartVersion";"1.0.5";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"ASSMANN:/F_ASSMANN/ASSMANN.010/ASSMANN.010.260/10-30032017-123672";"";

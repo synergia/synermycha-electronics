@@ -13,124 +13,101 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6400 4200 0    50   Input ~ 0
+Text HLabel 5000 2950 0    50   Input ~ 0
 ESP_RX
-Text HLabel 6400 4750 0    50   Output ~ 0
+Text HLabel 5000 3050 0    50   Output ~ 0
 ESP_TX
-Text HLabel 6400 4400 0    50   Output ~ 0
-WS2812B_IN
-Wire Wire Line
-	8050 4000 8050 4200
-Connection ~ 8050 4000
-Wire Wire Line
-	8100 4000 8050 4000
-Wire Wire Line
-	8050 3850 8050 4000
-Connection ~ 8050 4200
-Wire Wire Line
-	8050 4400 7950 4400
-$Comp
-L Device:R_Small R18
-U 1 1 5E7AA223
-P 8050 4300
-F 0 "R18" H 7991 4254 50  0000 R CNN
-F 1 "10K" H 7991 4345 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8050 4300 50  0001 C CNN
-F 3 "~" H 8050 4300 50  0001 C CNN
-	1    8050 4300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8050 4500 7950 4500
-Wire Wire Line
-	8050 4750 8050 4500
-Wire Wire Line
-	7950 4200 8050 4200
-$Comp
-L power:GND #PWR0145
-U 1 1 5E76CA12
-P 8300 4000
-AR Path="/5E5F55AD/5E76CA12" Ref="#PWR0145"  Part="1" 
-AR Path="/5E79B5DD/5E76CA12" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0145" H 8300 3750 50  0001 C CNN
-F 1 "GND" H 8305 3827 50  0000 C CNN
-F 2 "" H 8300 4000 50  0001 C CNN
-F 3 "" H 8300 4000 50  0001 C CNN
-	1    8300 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR0146
 U 1 1 5E76CA0A
-P 8050 3850
+P 6000 2300
 AR Path="/5E5F55AD/5E76CA0A" Ref="#PWR0146"  Part="1" 
 AR Path="/5E79B5DD/5E76CA0A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0146" H 8050 3700 50  0001 C CNN
-F 1 "+3V3" H 8065 4023 50  0000 C CNN
-F 2 "" H 8050 3850 50  0001 C CNN
-F 3 "" H 8050 3850 50  0001 C CNN
-	1    8050 3850
+F 0 "#PWR0146" H 6000 2150 50  0001 C CNN
+F 1 "+3V3" H 6015 2473 50  0000 C CNN
+F 2 "" H 6000 2300 50  0001 C CNN
+F 3 "" H 6000 2300 50  0001 C CNN
+	1    6000 2300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C19
-U 1 1 5E76CA04
-P 8200 4000
-AR Path="/5E5F55AD/5E76CA04" Ref="C19"  Part="1" 
-AR Path="/5E79B5DD/5E76CA04" Ref="C?"  Part="1" 
-F 0 "C19" V 7971 4000 50  0000 C CNN
-F 1 "0.1uF" V 8062 4000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8200 4000 50  0001 C CNN
-F 3 "~" H 8200 4000 50  0001 C CNN
-	1    8200 4000
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0147
 U 1 1 5E76775C
-P 7450 4500
+P 7300 3600
 AR Path="/5E5F55AD/5E76775C" Ref="#PWR0147"  Part="1" 
 AR Path="/5E79B5DD/5E76775C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0147" H 7450 4250 50  0001 C CNN
-F 1 "GND" H 7455 4327 50  0000 C CNN
-F 2 "" H 7450 4500 50  0001 C CNN
-F 3 "" H 7450 4500 50  0001 C CNN
-	1    7450 4500
+F 0 "#PWR0147" H 7300 3350 50  0001 C CNN
+F 1 "GND" H 7305 3427 50  0000 C CNN
+F 2 "" H 7300 3600 50  0001 C CNN
+F 3 "" H 7300 3600 50  0001 C CNN
+	1    7300 3600
+	1    0    0    -1  
+$EndComp
+Text Label 5900 2950 2    50   ~ 0
+CONN_ESP_RX
+Text Label 5400 3050 0    50   ~ 0
+CONN_ESP_TX
+Wire Wire Line
+	5000 2950 6050 2950
+$Comp
+L eec:RN4871U-V_RM118 U3
+U 1 1 5F776A6D
+P 5950 2350
+F 0 "U3" H 6650 2615 50  0000 C CNN
+F 1 "RN4871U-V_RM118" H 6650 2524 50  0000 C CNN
+F 2 "eec:Microchip-RN4871U-V_RM118-0" H 5950 2750 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/50002489C.pdf" H 5950 2850 50  0001 L CNN
+F 4 "IC" H 5950 2950 50  0001 L CNN "category"
+F 5 "BLUETOOTH 4.2 BLE MODULE, UNSHIE" H 5950 3050 50  0001 L CNN "digikey description"
+F 6 "RN4871U-V/RM118-ND" H 5950 3150 50  0001 L CNN "digikey part number"
+F 7 "yes" H 5950 3250 50  0001 L CNN "lead free"
+F 8 "836aeee1b1e3abae" H 5950 3350 50  0001 L CNN "library id"
+F 9 "Microchip" H 5950 3450 50  0001 L CNN "manufacturer"
+F 10 "579-RN4871U-V/RM118" H 5950 3550 50  0001 L CNN "mouser part number"
+F 11 "SMD17" H 5950 3650 50  0001 L CNN "package"
+F 12 "yes" H 5950 3750 50  0001 L CNN "rohs"
+F 13 "+70°C" H 5950 3850 50  0001 L CNN "temperature range high"
+F 14 "-20°C" H 5950 3950 50  0001 L CNN "temperature range low"
+	1    5950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3050 5000 3050
+Wire Wire Line
+	7250 3450 7300 3450
+Wire Wire Line
+	7300 3450 7300 3550
+Wire Wire Line
+	7250 3550 7300 3550
+Connection ~ 7300 3550
+Wire Wire Line
+	7300 3550 7300 3600
+Wire Wire Line
+	6050 2350 6000 2350
+Wire Wire Line
+	6000 2350 6000 2300
+$Comp
+L Device:Antenna_Chip AE1
+U 1 1 5F7823BD
+P 7350 2250
+F 0 "AE1" H 7530 2377 50  0000 L CNN
+F 1 "Antenna_Chip" H 7530 2286 50  0000 L CNN
+F 2 "RF_Antenna:Johanson_2450AT18x100" H 7250 2425 50  0001 C CNN
+F 3 "~" H 7250 2425 50  0001 C CNN
+	1    7350 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J5
-U 1 1 5E762F6E
-P 7650 4400
-AR Path="/5E5F55AD/5E762F6E" Ref="J5"  Part="1" 
-AR Path="/5E79B5DD/5E762F6E" Ref="J?"  Part="1" 
-F 0 "J5" H 7700 3975 50  0000 C CNN
-F 1 "ESP_01" H 7700 4066 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD" H 7650 4400 50  0001 C CNN
-F 3 "~" H 7650 4400 50  0001 C CNN
-	1    7650 4400
-	1    0    0    1   
+L power:GND #PWR0145
+U 1 1 5F782DB6
+P 7450 2350
+AR Path="/5E5F55AD/5F782DB6" Ref="#PWR0145"  Part="1" 
+AR Path="/5E79B5DD/5F782DB6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0145" H 7450 2100 50  0001 C CNN
+F 1 "GND" H 7455 2177 50  0000 C CNN
+F 2 "" H 7450 2350 50  0001 C CNN
+F 3 "" H 7450 2350 50  0001 C CNN
+	1    7450 2350
+	1    0    0    -1  
 $EndComp
-Text Label 7300 4200 2    50   ~ 0
-CONN_ESP_RX
-Text Label 7300 4400 2    50   ~ 0
-CONN_ESP_GPIO2
-Text Label 8350 4500 0    50   ~ 0
-CONN_ESP_TX
-Text Label 8350 4400 0    50   ~ 0
-CONN_ESP_CH_PD
-Wire Wire Line
-	8350 4400 8050 4400
-Connection ~ 8050 4400
-Wire Wire Line
-	8350 4500 8050 4500
-Connection ~ 8050 4500
-Wire Wire Line
-	6400 4750 8050 4750
-Wire Wire Line
-	6400 4200 7450 4200
-Wire Wire Line
-	6400 4400 7450 4400
-NoConn ~ 7450 4300
-NoConn ~ 7950 4300
 $EndSCHEMATC
