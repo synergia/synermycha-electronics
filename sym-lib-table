@@ -7,4 +7,5 @@
   (lib (name synermycha-electronics-rescue)(type Legacy)(uri ${KIPRJMOD}/synermycha-electronics-rescue.lib)(options "")(descr ""))
   (lib (name synermycha-electronics)(type Legacy)(uri ${KIPRJMOD}/synermycha-electronics.lib)(options "")(descr ""))
   (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/eec.lib)(options "")(descr ""))
+  (lib (name CYPD3177-24LQXI)(type Legacy)(uri ${KIPRJMOD}/libs/CYPD3177-24LQXI.lib)(options "")(descr ""))
 )

@@ -19,7 +19,7 @@ U 1 1 5E6B1EC1
 P 3700 2350
 F 0 "J6" H 3780 2342 50  0000 L CNN
 F 1 "A1250WV-S-4P" H 3780 2251 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 3700 2350 50  0001 C CNN
+F 2 "connector_brd2brd:01x04_1.0x0.5mm_SMD" H 3700 2350 50  0001 C CNN
 F 3 "~" H 3700 2350 50  0001 C CNN
 	1    3700 2350
 	1    0    0    -1  
@@ -94,17 +94,6 @@ F 2 "Resistor_SMD:R_0402_1005Metric" H 3200 4350 50  0001 C CNN
 F 3 "~" H 3200 4350 50  0001 C CNN
 	1    3200 4350
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R21
-U 1 1 5E6B67DA
-P 3600 4050
-F 0 "R21" H 3541 4004 50  0000 R CNN
-F 1 "33R" H 3541 4095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 4050 50  0001 C CNN
-F 3 "~" H 3600 4050 50  0001 C CNN
-	1    3600 4050
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR0156
@@ -260,8 +249,6 @@ Text HLabel 6400 2150 0    50   Input ~ 0
 Text HLabel 6400 2250 0    50   Input ~ 0
 ~LED_5
 Wire Wire Line
-	3600 3950 3600 3900
-Wire Wire Line
 	3600 3700 3600 3650
 $Comp
 L Device:D_Small D1
@@ -387,4 +374,6 @@ F 3 "" H 8900 1400 50  0001 C CNN
 	1    8900 1400
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3600 3900 3600 4150
 $EndSCHEMATC
