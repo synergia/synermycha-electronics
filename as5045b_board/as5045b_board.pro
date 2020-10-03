@@ -1,4 +1,4 @@
-update=wto, 25 sie 2020, 17:47:29
+update=03.10.2020 19:55:53
 version=1
 last_client=pcbnew
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../../../Downloads/as5045b_board.net
+LastNetListRead=as5045b_board.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
