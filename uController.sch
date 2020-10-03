@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_ST_STM32F4:STM32F446RETx U13
-U 1 1 5E5FC006
-P 5550 3550
-F 0 "U13" H 5550 3600 50  0000 C CNN
-F 1 "STM32F446RETx" H 5550 3500 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4950 1850 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5550 3550 50  0001 C CNN
-	1    5550 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 3350 4500 3350
 Wire Wire Line
@@ -123,9 +112,9 @@ IMU_SDA
 Text HLabel 7450 2850 2    50   Output ~ 0
 IMU_SCL
 Text HLabel 6350 2950 2    50   Output ~ 0
-ESP_RX
+RN4870_RX
 Text HLabel 6350 3050 2    50   Input ~ 0
-ESP_TX
+RN4870_TX
 Text HLabel 6350 3750 2    50   Input ~ 0
 BATT_VOLTAGE
 Text HLabel 2900 4850 0    50   BiDi ~ 0
@@ -157,51 +146,49 @@ DRV8835_PWM_B
 $Comp
 L Device:C_Small C35
 U 1 1 5E630928
-P 4650 2550
-F 0 "C35" H 4558 2504 50  0000 R CNN
-F 1 "2.2uF" H 4558 2595 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 2550 50  0001 C CNN
-F 3 "~" H 4650 2550 50  0001 C CNN
-	1    4650 2550
+P 4650 2600
+F 0 "C35" H 4558 2554 50  0000 R CNN
+F 1 "2.2uF" H 4558 2645 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 2600 50  0001 C CNN
+F 3 "~" H 4650 2600 50  0001 C CNN
+	1    4650 2600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R19
 U 1 1 5E6321B0
-P 4450 2350
-F 0 "R19" H 4509 2396 50  0000 L CNN
-F 1 "10K" H 4509 2305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4450 2350 50  0001 C CNN
-F 3 "~" H 4450 2350 50  0001 C CNN
-	1    4450 2350
+P 4400 2400
+F 0 "R19" H 4459 2446 50  0000 L CNN
+F 1 "10K" H 4459 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4400 2400 50  0001 C CNN
+F 3 "~" H 4400 2400 50  0001 C CNN
+	1    4400 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0149
 U 1 1 5E633AFC
-P 4450 2450
-F 0 "#PWR0149" H 4450 2200 50  0001 C CNN
-F 1 "GND" H 4455 2277 50  0000 C CNN
-F 2 "" H 4450 2450 50  0001 C CNN
-F 3 "" H 4450 2450 50  0001 C CNN
-	1    4450 2450
+P 4400 2500
+F 0 "#PWR0149" H 4400 2250 50  0001 C CNN
+F 1 "GND" H 4405 2327 50  0000 C CNN
+F 2 "" H 4400 2500 50  0001 C CNN
+F 3 "" H 4400 2500 50  0001 C CNN
+	1    4400 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0150
 U 1 1 5E6343F0
-P 4650 2650
-F 0 "#PWR0150" H 4650 2400 50  0001 C CNN
-F 1 "GND" H 4655 2477 50  0000 C CNN
-F 2 "" H 4650 2650 50  0001 C CNN
-F 3 "" H 4650 2650 50  0001 C CNN
-	1    4650 2650
+P 4650 2700
+F 0 "#PWR0150" H 4650 2450 50  0001 C CNN
+F 1 "GND" H 4655 2527 50  0000 C CNN
+F 2 "" H 4650 2700 50  0001 C CNN
+F 3 "" H 4650 2700 50  0001 C CNN
+	1    4650 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4850 2450 4650 2450
-Wire Wire Line
-	4850 2250 4450 2250
 Wire Wire Line
 	5350 1850 5350 1800
 Wire Wire Line
@@ -789,10 +776,6 @@ Wire Wire Line
 	4750 3850 4850 3850
 Wire Wire Line
 	4750 3950 4850 3950
-Text HLabel 6350 2050 2    50   Output ~ 0
-~LED_6
-Wire Wire Line
-	6350 2050 6250 2050
 Text HLabel 6350 4250 2    50   Output ~ 0
 WS2812B_IN
 Wire Wire Line
@@ -1078,4 +1061,40 @@ F 3 "~" V 2400 5850 50  0001 C CNN
 	1    2400 5850
 	0    1    -1   0   
 $EndComp
+NoConn ~ 6250 3150
+NoConn ~ 6250 3250
+NoConn ~ 6250 2150
+NoConn ~ 6250 2050
+Wire Wire Line
+	4650 2500 4650 2450
+Wire Wire Line
+	4400 2250 4400 2300
+Wire Wire Line
+	4400 2250 4850 2250
+NoConn ~ 6250 4150
+NoConn ~ 4850 4350
+NoConn ~ 4850 4450
+Text HLabel 4750 4150 0    50   Output ~ 0
+RN4870_~ON
+Text HLabel 6350 3850 2    50   Output ~ 0
+RN4870_~RESET
+Text HLabel 6350 3950 2    50   Output ~ 0
+RN4870_~FLASH_MODE
+Wire Wire Line
+	4750 4150 4850 4150
+$Comp
+L MCU_ST_STM32F4:STM32F446RETx U13
+U 1 1 5E5FC006
+P 5550 3550
+F 0 "U13" H 5550 3600 50  0000 C CNN
+F 1 "STM32F446RETx" H 5550 3500 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4950 1850 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3850 6250 3850
+Wire Wire Line
+	6250 3950 6350 3950
 $EndSCHEMATC

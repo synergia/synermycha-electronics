@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -14,20 +14,20 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 5000 2950 0    50   Input ~ 0
-ESP_RX
+RN4870_RX
 Text HLabel 5000 3050 0    50   Output ~ 0
-ESP_TX
+RN4870_TX
 $Comp
 L power:+3V3 #PWR0146
 U 1 1 5E76CA0A
-P 6000 2300
+P 5850 1900
 AR Path="/5E5F55AD/5E76CA0A" Ref="#PWR0146"  Part="1" 
 AR Path="/5E79B5DD/5E76CA0A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0146" H 6000 2150 50  0001 C CNN
-F 1 "+3V3" H 6015 2473 50  0000 C CNN
-F 2 "" H 6000 2300 50  0001 C CNN
-F 3 "" H 6000 2300 50  0001 C CNN
-	1    6000 2300
+F 0 "#PWR0146" H 5850 1750 50  0001 C CNN
+F 1 "+3V3" H 5865 2073 50  0000 C CNN
+F 2 "" H 5850 1900 50  0001 C CNN
+F 3 "" H 5850 1900 50  0001 C CNN
+	1    5850 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -61,9 +61,7 @@ Connection ~ 7300 3550
 Wire Wire Line
 	7300 3550 7300 3600
 Wire Wire Line
-	6050 2350 6000 2350
-Wire Wire Line
-	6000 2350 6000 2300
+	5850 2350 5850 2300
 $Comp
 L Device:Antenna_Chip AE1
 U 1 1 5F7823BD
@@ -92,7 +90,6 @@ NoConn ~ 7250 2550
 NoConn ~ 7250 2650
 NoConn ~ 7250 2750
 NoConn ~ 7250 2850
-NoConn ~ 7250 3050
 NoConn ~ 7250 3150
 NoConn ~ 7250 3250
 NoConn ~ 6050 3250
@@ -121,24 +118,63 @@ F 14 "-20°C" H 5950 3950 50  0001 L CNN "temperature range low"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 2450 6000 2450
+	5850 2450 5850 2350
+Connection ~ 5850 2350
+Text HLabel 5000 2750 0    50   Input ~ 0
+RN4870_~RESET
+Text HLabel 7850 3050 2    50   Input ~ 0
+RN4870_~FLASH_MODE
 Wire Wire Line
-	6000 2450 6000 2350
-Connection ~ 6000 2350
+	7850 3050 7250 3050
 Wire Wire Line
-	6050 2750 6000 2750
-Wire Wire Line
-	6000 2750 6000 2450
-Connection ~ 6000 2450
+	5000 2750 5850 2750
 $Comp
-L Device:Antenna_Loop AE2
-U 1 1 5F932B32
-P 8250 2100
-F 0 "AE2" H 8480 2114 50  0000 L CNN
-F 1 "Antenna_Loop" H 8480 2023 50  0000 L CNN
-F 2 "RF_Antenna:Texas_SWRA117D_2.4GHz_Right" H 8250 2100 50  0001 C CNN
-F 3 "~" H 8250 2100 50  0001 C CNN
-	1    8250 2100
+L Device:R_Small R60
+U 1 1 5F954B05
+P 5850 2600
+F 0 "R60" H 5909 2646 50  0000 L CNN
+F 1 "10K" H 5909 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5850 2600 50  0001 C CNN
+F 3 "~" H 5850 2600 50  0001 C CNN
+	1    5850 2600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5850 2750 5850 2700
+Connection ~ 5850 2750
+Wire Wire Line
+	5850 2750 6050 2750
+Wire Wire Line
+	5850 2500 5850 2450
+Connection ~ 5850 2450
+Wire Wire Line
+	5850 2450 6050 2450
+Wire Wire Line
+	5850 2350 6050 2350
+Text HLabel 5000 2100 0    50   Input ~ 0
+RN4870_~ON
+$Comp
+L Transistor_BJT:BC856 Q5
+U 1 1 5F9645B3
+P 5750 2100
+F 0 "Q5" H 5941 2146 50  0000 L CNN
+F 1 "BC856" H 5941 2055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 2025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC860-D.pdf" H 5750 2100 50  0001 L CNN
+	1    5750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R59
+U 1 1 5F967689
+P 5450 2100
+F 0 "R59" V 5254 2100 50  0000 C CNN
+F 1 "10K" V 5345 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5450 2100 50  0001 C CNN
+F 3 "~" H 5450 2100 50  0001 C CNN
+	1    5450 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2100 5350 2100
 $EndSCHEMATC

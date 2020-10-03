@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -306,8 +306,6 @@ Text HLabel 6400 2600 0    50   Input ~ 0
 ~LED_MOUSE_EYE
 Wire Wire Line
 	8900 1800 8900 2600
-Text HLabel 6400 2350 0    50   Input ~ 0
-~LED_6
 $Comp
 L power:GND #PWR0160
 U 1 1 5F93DEEE

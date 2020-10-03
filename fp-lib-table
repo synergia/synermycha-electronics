@@ -7,6 +7,6 @@
   (lib (name holes)(type KiCad)(uri ${KIPRJMOD}/footprints/holes.pretty)(options "")(descr ""))
   (lib (name mocowanie_silników)(type KiCad)(uri ${KIPRJMOD}/footprints/mocowanie_silników.pretty)(options "")(descr ""))
   (lib (name graphics)(type KiCad)(uri ${KIPRJMOD}/graphics)(options "")(descr ""))
-  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/eec.pretty)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/footprints/eec.pretty)(options "")(descr ""))
   (lib (name CYPD3177-24LQXI)(type Legacy)(uri ${KIPRJMOD}/footprints/CYPD3177-24LQXI.mod)(options "")(descr ""))
 )

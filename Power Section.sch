@@ -958,13 +958,10 @@ F 3 "https://www.cypress.com/file/460416/download" H 4000 4100 50  0001 L CNN
 	1    4750 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 1350 5050
 Wire Wire Line
 	1350 5050 1350 5000
 Wire Wire Line
 	1050 5050 1050 5000
-Wire Wire Line
-	1350 5050 1350 5100
 Wire Wire Line
 	1350 5050 1050 5050
 $Comp
@@ -1346,12 +1343,12 @@ Connection ~ 4550 1000
 $Comp
 L power:+6V #PWR0105
 U 1 1 5E8220FC
-P 6700 800
-F 0 "#PWR0105" H 6700 650 50  0001 C CNN
-F 1 "+6V" H 6600 950 50  0000 L CNN
-F 2 "" H 6700 800 50  0001 C CNN
-F 3 "" H 6700 800 50  0001 C CNN
-	1    6700 800 
+P 6700 750
+F 0 "#PWR0105" H 6700 600 50  0001 C CNN
+F 1 "+6V" H 6600 900 50  0000 L CNN
+F 2 "" H 6700 750 50  0001 C CNN
+F 3 "" H 6700 750 50  0001 C CNN
+	1    6700 750 
 	1    0    0    -1  
 $EndComp
 Connection ~ 6150 800 
@@ -1675,4 +1672,10 @@ Connection ~ 5100 2450
 Wire Wire Line
 	5100 2450 5100 2500
 NoConn ~ 5450 2000
+NoConn ~ 2600 1500
+Wire Wire Line
+	1350 5100 1350 5050
+Connection ~ 1350 5050
+Wire Wire Line
+	6700 750  6700 800 
 $EndSCHEMATC

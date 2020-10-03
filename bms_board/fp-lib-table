@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name connector_brd2brd)(type KiCad)(uri G:/Gits/synermycha-electronics/footprints/connector_brd2brd.pretty)(options "")(descr ""))
-)
