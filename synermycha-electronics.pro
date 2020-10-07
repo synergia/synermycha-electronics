@@ -1,4 +1,4 @@
-update=sob, 12 wrz 2020, 21:21:50
+update=wto, 6 paź 2020, 22:13:36
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.1016
+MinTrackWidth=0.1524
 MinViaDiameter=0.3
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
@@ -91,11 +91,11 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
