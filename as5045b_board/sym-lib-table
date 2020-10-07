@@ -5,4 +5,6 @@
   (lib (name p-mos)(type Legacy)(uri ${KIPRJMOD}/p-mos.lib)(options "")(descr ""))
   (lib (name Connector_stlink_V3)(type Legacy)(uri ${KIPRJMOD}/Connector_stlink_V3.lib)(options "")(descr ""))
   (lib (name ams)(type Legacy)(uri G:/Gits/synermycha-electronics/libs/ams.lib)(options "")(descr ""))
+  (lib (name as5045b_board-rescue)(type Legacy)(uri ${KIPRJMOD}/as5045b_board-rescue.lib)(options "")(descr ""))
+  (lib (name synermycha-electronics)(type Legacy)(uri ${KIPRJMOD}/../libs/synermycha-electronics.lib)(options "")(descr ""))
 )
