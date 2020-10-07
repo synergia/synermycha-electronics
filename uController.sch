@@ -402,7 +402,7 @@ F 3 "" H 5750 5400 50  0001 C CNN
 $EndComp
 Connection ~ 5750 5400
 $Comp
-L Connector:USB_B_Micro J11
+L synermycha-electronics-rescue:USB_B_Micro-Connector J11
 U 1 1 5E680BE3
 P 8750 3150
 F 0 "J11" H 8520 3139 50  0000 R CNN
