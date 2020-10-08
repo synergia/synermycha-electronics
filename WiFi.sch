@@ -18,11 +18,12 @@ ESP_RX
 Text HLabel 5250 2700 0    50   Output ~ 0
 ESP_TX
 $Comp
-L Connector:USB_B_Micro J4
+L synermycha-electronics-rescue:USB_B_Micro-Connector J4
 U 1 1 5E701B58
 P 2850 4200
 AR Path="/5E5F55AD/5E701B58" Ref="J4"  Part="1" 
 AR Path="/5E79B5DD/5E701B58" Ref="J?"  Part="1" 
+AR Path="/5E701B58" Ref="J4"  Part="1" 
 F 0 "J4" H 2907 4667 50  0000 C CNN
 F 1 "USB_B_Micro" H 2907 4576 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 3000 4150 50  0001 C CNN
