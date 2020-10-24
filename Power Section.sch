@@ -1678,4 +1678,8 @@ Wire Wire Line
 Connection ~ 1350 5050
 Wire Wire Line
 	6700 750  6700 800 
+Text Label 2000 4100 0    50   ~ 0
+D-
+Text Label 2000 4200 0    50   ~ 0
+D+
 $EndSCHEMATC
