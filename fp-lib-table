@@ -6,4 +6,5 @@
   (lib (name mocowanie_silników)(type KiCad)(uri ${KIPRJMOD}/footprints/mocowanie_silników.pretty)(options "")(descr ""))
   (lib (name graphics)(type KiCad)(uri ${KIPRJMOD}/graphics)(options "")(descr ""))
   (lib (name CYPD3177-24LQXI)(type Legacy)(uri ${KIPRJMOD}/footprints/CYPD3177-24LQXI.mod)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints)(options "")(descr ""))
 )

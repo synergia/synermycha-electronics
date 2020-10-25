@@ -19,6 +19,8 @@ U 5E5F54DF
 F0 "Power Section" 50
 F1 "Power Section.sch" 50
 F2 "BATT_VOLTAGE" O R 1550 1350 50 
+F3 "STSUSB4500_SDA" B R 1550 900 50 
+F4 "STUSB_4500_SCL" I R 1550 1000 50 
 $EndSheet
 $Sheet
 S 7350 2900 750  1050
@@ -54,7 +56,7 @@ F6 "VL53L0x_~XSHUT[3]" I R 4050 1550 50
 F7 "VL53L0x_~XSHUT[4]" I R 4050 1650 50 
 F8 "VL53L0x_~XSHUT[5]" I R 4050 1750 50 
 $EndSheet
-Text Notes 1000 1150 0    50   ~ 0
+Text Notes 650  1400 0    50   ~ 0
 6V,\n3V3\n
 $Sheet
 S 3200 5250 850  1050
@@ -114,10 +116,6 @@ Wire Wire Line
 	2450 1350 2450 2200
 Wire Wire Line
 	2450 2200 4700 2200
-Wire Wire Line
-	7350 1100 6600 1100
-Wire Wire Line
-	6600 1200 7350 1200
 $Sheet
 S 4700 950  1900 5350
 U 5E5F551F
@@ -231,4 +229,30 @@ Wire Wire Line
 	6600 5500 7350 5500
 Wire Wire Line
 	7350 5400 6600 5400
+Wire Wire Line
+	1550 1000 1750 1000
+Wire Wire Line
+	6600 1100 6900 1100
+Wire Wire Line
+	6800 800  6800 1200
+Wire Wire Line
+	6600 1200 6800 1200
+Connection ~ 6800 1200
+Wire Wire Line
+	6800 1200 7350 1200
+Wire Wire Line
+	6900 1100 6900 700 
+Connection ~ 6900 1100
+Wire Wire Line
+	6900 1100 7350 1100
+Wire Wire Line
+	1550 900  1650 900 
+Wire Wire Line
+	1650 700  1650 900 
+Wire Wire Line
+	1650 700  6900 700 
+Wire Wire Line
+	1750 1000 1750 800 
+Wire Wire Line
+	1750 800  6800 800 
 $EndSCHEMATC
