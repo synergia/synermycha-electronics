@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 12 12
 Title ""
 Date ""
 Rev ""
@@ -1246,19 +1246,19 @@ NoConn ~ 2000 4100
 NoConn ~ 2000 4200
 NoConn ~ 2000 4300
 Wire Wire Line
-	2400 3500 2000 3500
+	2400 3500 2100 3500
 Connection ~ 2400 3500
 Wire Wire Line
 	2000 3700 2250 3700
 Wire Wire Line
-	2250 3700 2250 4950
+	2250 3700 2250 4500
 Wire Wire Line
 	2250 4950 3300 4950
 Connection ~ 3300 4950
 Wire Wire Line
 	3500 5050 2150 5050
 Wire Wire Line
-	2150 5050 2150 3800
+	2150 5050 2150 4600
 Wire Wire Line
 	2150 3800 2000 3800
 Connection ~ 3500 5050
@@ -1539,8 +1539,6 @@ Wire Wire Line
 	3650 1200 3800 1200
 Connection ~ 3800 1200
 Wire Wire Line
-	6300 2650 3000 2650
-Wire Wire Line
 	3000 1550 3000 2650
 Connection ~ 6300 3500
 Wire Wire Line
@@ -1576,4 +1574,29 @@ Wire Notes Line
 	3200 800  2500 800 
 Wire Notes Line
 	2500 800  2500 1950
+Wire Wire Line
+	2100 3500 2100 3350
+Wire Wire Line
+	2100 3350 2300 3350
+Text HLabel 2300 3350 2    50   UnSpc ~ 0
+VBUS
+Connection ~ 2100 3500
+Wire Wire Line
+	2100 3500 2000 3500
+Wire Wire Line
+	3000 2650 6300 2650
+Text HLabel 2400 4500 2    50   BiDi ~ 0
+CC1
+Text HLabel 2400 4600 2    50   BiDi ~ 0
+CC2
+Wire Wire Line
+	2250 4500 2400 4500
+Connection ~ 2250 4500
+Wire Wire Line
+	2250 4500 2250 4950
+Wire Wire Line
+	2150 4600 2400 4600
+Connection ~ 2150 4600
+Wire Wire Line
+	2150 4600 2150 3800
 $EndSCHEMATC
