@@ -79,17 +79,6 @@ F 3 "~" H 6800 2650 50  0001 C CNN
 	1    6600 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5FD2BBAF
-P 7100 2650
-F 0 "TP7" H 7158 2768 50  0000 L CNN
-F 1 "TestPoint" H 7158 2677 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7300 2650 50  0001 C CNN
-F 3 "~" H 7300 2650 50  0001 C CNN
-	1    7100 2650
-	1    0    0    -1  
-$EndComp
 Text HLabel 3300 2850 0    50   Output ~ 0
 SWDCLK
 Text HLabel 3300 2950 0    50   BiDi ~ 0
@@ -102,8 +91,6 @@ Text HLabel 3300 3250 0    50   UnSpc ~ 0
 +3V3
 Text HLabel 3300 3350 0    50   UnSpc ~ 0
 GND
-Text HLabel 3300 3450 0    50   UnSpc ~ 0
-VBUS
 Wire Wire Line
 	3300 2850 4000 2850
 Wire Wire Line
@@ -128,42 +115,4 @@ Wire Wire Line
 	3300 3350 6600 3350
 Wire Wire Line
 	6600 3350 6600 2650
-Wire Wire Line
-	7100 3450 7100 2650
-Wire Wire Line
-	3300 3450 7100 3450
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5FE4475E
-P 7600 2650
-F 0 "TP8" H 7658 2768 50  0000 L CNN
-F 1 "TestPoint" H 7658 2677 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7800 2650 50  0001 C CNN
-F 3 "~" H 7800 2650 50  0001 C CNN
-	1    7600 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5FE44C0F
-P 8100 2650
-F 0 "TP9" H 8158 2768 50  0000 L CNN
-F 1 "TestPoint" H 8158 2677 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8300 2650 50  0001 C CNN
-F 3 "~" H 8300 2650 50  0001 C CNN
-	1    8100 2650
-	1    0    0    -1  
-$EndComp
-Text HLabel 3300 3550 0    50   BiDi ~ 0
-CC1
-Text HLabel 3300 3650 0    50   BiDi ~ 0
-CC2
-Wire Wire Line
-	3300 3550 7600 3550
-Wire Wire Line
-	7600 3550 7600 2650
-Wire Wire Line
-	8100 2650 8100 3650
-Wire Wire Line
-	8100 3650 3300 3650
 $EndSCHEMATC
