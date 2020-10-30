@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 11 12
 Title ""
 Date ""
 Rev ""
@@ -118,23 +118,23 @@ F 3 "" H 7050 3700 50  0001 C CNN
 	1    7050 3700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2000 4700
-NoConn ~ 2000 4600
+NoConn ~ 1650 4700
+NoConn ~ 1650 4600
 Wire Wire Line
-	1400 5050 1400 5000
+	1050 5050 1050 5000
 Wire Wire Line
-	1100 5050 1100 5000
+	750  5050 750  5000
 Wire Wire Line
-	1400 5050 1100 5050
+	1050 5050 750  5050
 $Comp
 L power:GND #PWR0166
 U 1 1 5F75D4F0
-P 1400 5100
-F 0 "#PWR0166" H 1400 4850 50  0001 C CNN
-F 1 "GND" H 1405 4927 50  0000 C CNN
-F 2 "" H 1400 5100 50  0001 C CNN
-F 3 "" H 1400 5100 50  0001 C CNN
-	1    1400 5100
+P 1050 5100
+F 0 "#PWR0166" H 1050 4850 50  0001 C CNN
+F 1 "GND" H 1055 4927 50  0000 C CNN
+F 2 "" H 1050 5100 50  0001 C CNN
+F 3 "" H 1050 5100 50  0001 C CNN
+	1    1050 5100
 	1    0    0    -1  
 $EndComp
 Connection ~ 600  2100
@@ -616,8 +616,8 @@ Wire Wire Line
 	7100 2650 7100 2700
 NoConn ~ 7450 2200
 Wire Wire Line
-	1400 5100 1400 5050
-Connection ~ 1400 5050
+	1050 5100 1050 5050
+Connection ~ 1050 5050
 Wire Wire Line
 	8700 950  8700 1000
 $Comp
@@ -995,28 +995,11 @@ F 3 "" H 2400 3750 50  0001 C CNN
 	1    2400 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L synermycha-electronics-rescue:USB_C_Receptacle_USB2.0-Connector J4
-U 1 1 5F7529BC
-P 1400 4100
-AR Path="/5F7529BC" Ref="J4"  Part="1" 
-AR Path="/5E5F54DF/5F7529BC" Ref="J4"  Part="1" 
-F 0 "J4" H 1507 4967 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1507 4876 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1550 4100 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1550 4100 50  0001 C CNN
-	1    1400 4100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2000 4000
-NoConn ~ 2000 4100
-NoConn ~ 2000 4200
-NoConn ~ 2000 4300
 Wire Wire Line
 	2400 3500 2100 3500
 Connection ~ 2400 3500
 Wire Wire Line
-	2000 3700 2250 3700
+	1650 3700 2250 3700
 Wire Wire Line
 	2250 3700 2250 4500
 Wire Wire Line
@@ -1027,7 +1010,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 5050 2150 4600
 Wire Wire Line
-	2150 3800 2000 3800
+	2150 3800 1650 3800
 Connection ~ 3500 5050
 Connection ~ 5600 3500
 Wire Wire Line
@@ -1349,7 +1332,7 @@ Text HLabel 2300 3350 2    50   UnSpc ~ 0
 VBUS
 Connection ~ 2100 3500
 Wire Wire Line
-	2100 3500 2000 3500
+	2100 3500 1650 3500
 Wire Wire Line
 	3000 2650 6300 2650
 Text HLabel 2400 4500 2    50   BiDi ~ 0
@@ -1601,4 +1584,73 @@ Text Notes 7900 5900 0    50   ~ 0
 Input voltage range                                        4 V to 10 V\nOvervoltageProtection(OVT)                                 4.35V\nOvervoltage detection delay time                           3 s\nOvervoltage detection delay timer capacitor                0.33μF\nCell Balancing Enabled                                     Yes\nCell Balancing Current, ICB1 and ICB2                     10 mA\nCell Balancing Resistors, RCB, RCB1, RCB2 and RVD       RCB= 100Ω, RCB1= 260Ω, \n                                                            RCB2= 160Ω, RVD= 100Ω
 Text Notes 7750 1600 0    50   ~ 0
 V = 1.25 * (1 + R2 / R1) \n6V ~~= 1.25 * (1 + 3.32 / 0.866) 
+$Comp
+L Device:R_Small R48
+U 1 1 5FA53C30
+P 2300 5450
+F 0 "R48" V 2104 5450 50  0000 C CNN
+F 1 "22R" V 2195 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 5450 50  0001 C CNN
+F 3 "~" H 2300 5450 50  0001 C CNN
+	1    2300 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L synermycha-electronics-rescue:USB_C_Receptacle_USB2.0-Connector J4
+U 1 1 5F7529BC
+P 1050 4100
+AR Path="/5F7529BC" Ref="J4"  Part="1" 
+AR Path="/5E5F54DF/5F7529BC" Ref="J4"  Part="1" 
+F 0 "J4" H 1157 4967 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1157 4876 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1200 4100 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 4100 50  0001 C CNN
+	1    1050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4000 1700 4000
+Wire Wire Line
+	1700 4000 1700 4100
+Wire Wire Line
+	1650 4100 1700 4100
+Connection ~ 1700 4100
+Wire Wire Line
+	1650 4200 1700 4200
+Wire Wire Line
+	1650 4300 1700 4300
+Wire Wire Line
+	1700 4300 1700 4200
+Connection ~ 1700 4200
+Text HLabel 2400 5350 2    50   BiDi ~ 0
+STM_D-
+Text HLabel 2400 5450 2    50   BiDi ~ 0
+STM_D+
+Wire Wire Line
+	2050 5350 2200 5350
+Wire Wire Line
+	1700 4100 2050 4100
+Wire Wire Line
+	2200 5450 1950 5450
+Wire Wire Line
+	1700 4200 1950 4200
+Wire Wire Line
+	2050 4100 2050 5350
+Wire Wire Line
+	1950 4200 1950 5450
+$Comp
+L Device:R_Small R47
+U 1 1 5FA52E1D
+P 2300 5350
+F 0 "R47" V 2104 5350 50  0000 C CNN
+F 1 "22R" V 2195 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 5350 50  0001 C CNN
+F 3 "~" H 2300 5350 50  0001 C CNN
+	1    2300 5350
+	0    1    1    0   
+$EndComp
+Text Label 1750 4100 0    50   ~ 0
+D-
+Text Label 1750 4200 0    50   ~ 0
+D+
 $EndSCHEMATC
