@@ -717,19 +717,6 @@ Wire Wire Line
 	3300 4950 3900 4950
 Connection ~ 3900 4950
 $Comp
-L Device:R_Small R17
-U 1 1 5FB18F14
-P 3800 4750
-F 0 "R17" V 3604 4750 50  0000 C CNN
-F 1 "1K" V 3695 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3800 4750 50  0001 C CNN
-F 3 "~" H 3800 4750 50  0001 C CNN
-	1    3800 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3950 4750 3900 4750
-$Comp
 L Device:C_Small C16
 U 1 1 5FB2BFC3
 P 4000 4100
@@ -899,8 +886,6 @@ F 3 "~" H 3450 3650 50  0001 C CNN
 	1    3450 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 4750 3450 4750
 $Comp
 L Device:D_Schottky_Small D25
 U 1 1 5FE875FD
@@ -952,7 +937,7 @@ Wire Wire Line
 	3150 3800 3150 3850
 Connection ~ 3450 3800
 Wire Wire Line
-	3450 3800 3450 4750
+	3450 3800 3450 3900
 $Comp
 L synermycha-electronics:ESDA25P35 D24
 U 1 1 5FF7F7E5
@@ -1653,4 +1638,33 @@ Text Label 1750 4100 0    50   ~ 0
 D-
 Text Label 1750 4200 0    50   ~ 0
 D+
+$Comp
+L Device:R_Small R17
+U 1 1 5FA3A7AB
+P 3450 4000
+F 0 "R17" H 3509 4046 50  0000 L CNN
+F 1 "1K" H 3509 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3450 4000 50  0001 C CNN
+F 3 "" H 3450 4000 50  0001 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4100 3450 4750
+Wire Wire Line
+	3450 4750 3950 4750
+Text HLabel 2400 5750 2    50   BiDi ~ 0
+D-
+Text HLabel 2400 5850 2    50   BiDi ~ 0
+D+
+Wire Wire Line
+	2400 5750 2050 5750
+Wire Wire Line
+	2050 5750 2050 5350
+Connection ~ 2050 5350
+Wire Wire Line
+	2400 5850 1950 5850
+Wire Wire Line
+	1950 5850 1950 5450
+Connection ~ 1950 5450
 $EndSCHEMATC
