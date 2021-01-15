@@ -11,4 +11,5 @@
   (lib (name MIMXRT1062DVL6A)(type Legacy)(uri ${KIPRJMOD}/libs/MIMXRT1062DVL6A.lib)(options "")(descr ""))
   (lib (name SKRPACE010)(type Legacy)(uri ${KIPRJMOD}/libs/SKRPACE010.lib)(options "")(descr ""))
   (lib (name SKRHABE010)(type Legacy)(uri ${KIPRJMOD}/libs/SKRHABE010.lib)(options "")(descr ""))
+  (lib (name STM32H723VGH6)(type Legacy)(uri ${KIPRJMOD}/libs/STM32H723VGH6.lib)(options "")(descr ""))
 )
