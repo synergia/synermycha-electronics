@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 8 12
 Title ""
 Date ""
 Rev ""
@@ -48,11 +48,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 3750 3050 3550
 Wire Wire Line
-	2850 3550 3050 3550
-Connection ~ 3050 3550
-Wire Wire Line
-	3050 3550 3650 3550
-Wire Wire Line
 	3650 4350 3650 4450
 Connection ~ 3650 4450
 Wire Wire Line
@@ -64,9 +59,6 @@ Wire Wire Line
 	3050 4450 2850 4450
 Wire Wire Line
 	3650 3750 3650 3550
-Connection ~ 3650 3550
-Wire Wire Line
-	3650 3550 4250 3550
 Wire Wire Line
 	4250 3550 4250 3750
 Connection ~ 4250 3550
@@ -134,74 +126,8 @@ Wire Wire Line
 $Comp
 L synermycha-electronics:WS2812B_2020 D7
 U 1 1 5F6EB166
-P 3050 4050
-F 0 "D7" H 3150 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 2750 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 3100 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 3675 50  0001 L TNN
-	1    3050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D8
-U 1 1 5F6EE511
-P 3650 4050
-F 0 "D8" H 3750 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 3350 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 3700 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3750 3675 50  0001 L TNN
-	1    3650 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D9
-U 1 1 5F6EE781
-P 4250 4050
-F 0 "D9" H 4350 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 3950 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 4300 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4350 3675 50  0001 L TNN
-	1    4250 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D10
-U 1 1 5F6EEC01
-P 5450 4050
-F 0 "D10" H 5550 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 5150 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 5500 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5550 3675 50  0001 L TNN
-	1    5450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D11
-U 1 1 5F6EF298
-P 6650 4050
-F 0 "D11" H 6750 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 6350 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 6700 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 3675 50  0001 L TNN
-	1    6650 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D12
-U 1 1 5F6EF9B8
-P 7250 4050
-F 0 "D12" H 7350 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 6950 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 7300 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7350 3675 50  0001 L TNN
-	1    7250 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D13
-U 1 1 5F6EFDC7
 P 7850 4050
-F 0 "D13" H 7950 4300 50  0000 L CNN
+F 0 "D7" H 7950 4300 50  0000 L CNN
 F 1 "WS2812B_2020" H 7550 4400 50  0000 L CNN
 F 2 "WS2812-2020:WS28122020" H 7900 3750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 3675 50  0001 L TNN
@@ -209,21 +135,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 3675 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L synermycha-electronics:WS2812B_2020 D21
-U 1 1 5F6F0DF1
-P 6050 4050
-F 0 "D21" H 6150 4300 50  0000 L CNN
-F 1 "WS2812B_2020" H 5750 4400 50  0000 L CNN
-F 2 "WS2812-2020:WS28122020" H 6100 3750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 3675 50  0001 L TNN
-	1    6050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L synermycha-electronics:WS2812B_2020 D22
-U 1 1 5F6F10C5
+L synermycha-electronics:WS2812B_2020 D8
+U 1 1 5F6EE511
 P 8450 4050
-F 0 "D22" H 8550 4300 50  0000 L CNN
+F 0 "D8" H 8550 4300 50  0000 L CNN
 F 1 "WS2812B_2020" H 8150 4400 50  0000 L CNN
 F 2 "WS2812-2020:WS28122020" H 8500 3750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 3675 50  0001 L TNN
@@ -231,14 +146,91 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 3675 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L synermycha-electronics:WS2812B_2020 D20
-U 1 1 5F6F18EE
+L synermycha-electronics:WS2812B_2020 D9
+U 1 1 5F6EE781
+P 3050 4050
+F 0 "D9" H 3150 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 2750 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 3100 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 3675 50  0001 L TNN
+	1    3050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D10
+U 1 1 5F6EEC01
+P 4250 4050
+F 0 "D10" H 4350 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 3950 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 4300 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4350 3675 50  0001 L TNN
+	1    4250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D11
+U 1 1 5F6EF298
+P 5450 4050
+F 0 "D11" H 5550 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 5150 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 5500 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5550 3675 50  0001 L TNN
+	1    5450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D12
+U 1 1 5F6EF9B8
+P 6050 4050
+F 0 "D12" H 6150 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 5750 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 6100 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 3675 50  0001 L TNN
+	1    6050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D13
+U 1 1 5F6EFDC7
+P 6650 4050
+F 0 "D13" H 6750 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 6350 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 6700 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 3675 50  0001 L TNN
+	1    6650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D21
+U 1 1 5F6F0DF1
 P 4850 4050
-F 0 "D20" H 4950 4300 50  0000 L CNN
+F 0 "D21" H 4950 4300 50  0000 L CNN
 F 1 "WS2812B_2020" H 4550 4400 50  0000 L CNN
 F 2 "WS2812-2020:WS28122020" H 4900 3750 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 3675 50  0001 L TNN
 	1    4850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D22
+U 1 1 5F6F10C5
+P 7250 4050
+F 0 "D22" H 7350 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 6950 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 7300 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7350 3675 50  0001 L TNN
+	1    7250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L synermycha-electronics:WS2812B_2020 D20
+U 1 1 5F6F18EE
+P 3650 4050
+F 0 "D20" H 3750 4300 50  0000 L CNN
+F 1 "WS2812B_2020" H 3350 4400 50  0000 L CNN
+F 2 "WS2812-2020:WS28122020" H 3700 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3750 3675 50  0001 L TNN
+	1    3650 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -247,4 +239,12 @@ Wire Wire Line
 	7250 3550 7250 3750
 Wire Wire Line
 	7850 3550 7850 3750
+Wire Wire Line
+	2850 3550 3050 3550
+Connection ~ 3050 3550
+Wire Wire Line
+	3050 3550 3650 3550
+Connection ~ 3650 3550
+Wire Wire Line
+	3650 3550 4250 3550
 $EndSCHEMATC

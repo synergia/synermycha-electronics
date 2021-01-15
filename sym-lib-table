@@ -8,4 +8,7 @@
   (lib (name synermycha-electronics)(type Legacy)(uri ${KIPRJMOD}/libs/synermycha-electronics.lib)(options "")(descr ""))
   (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/libs/eec.lib)(options "")(descr ""))
   (lib (name CYPD3177-24LQXI)(type Legacy)(uri ${KIPRJMOD}/libs/CYPD3177-24LQXI.lib)(options "")(descr ""))
+  (lib (name MIMXRT1062DVL6A)(type Legacy)(uri ${KIPRJMOD}/libs/MIMXRT1062DVL6A.lib)(options "")(descr ""))
+  (lib (name SKRPACE010)(type Legacy)(uri ${KIPRJMOD}/libs/SKRPACE010.lib)(options "")(descr ""))
+  (lib (name SKRHABE010)(type Legacy)(uri ${KIPRJMOD}/libs/SKRHABE010.lib)(options "")(descr ""))
 )
