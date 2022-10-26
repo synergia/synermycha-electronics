@@ -6,6 +6,9 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
@@ -25,10 +28,3 @@ fp-info-cache
 *.xml
 *.csv
 
-as5045b_board/gerbers/
-
-as5045b_board/gerbers.zip
-
-gerbers/
-
-gerbers.zip
