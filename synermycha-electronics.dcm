@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP WS2812B_2020
-D RGB LED with integrated controller
-K RGB LED NeoPixel addressable
-F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-$ENDCMP
-#
-#End Doc Library
