@@ -31,6 +31,23 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In1.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 2" (type "prepreg") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 3" (type "core") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (pcbplotparams
@@ -666,7 +683,7 @@
 
   (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 0d3f7764-971f-4dbe-bcf1-83623af4e64d)
-    (at 114.35 165.5 180)
+    (at 88.55 174.6 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "04024W226MAT2A")
@@ -752,7 +769,7 @@
 
   (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 14b4cf5b-42e2-413e-8b44-54117090ac77)
-    (at 106.2 164.55 180)
+    (at 79.4 174.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "04024W226MAT2A")
@@ -1135,7 +1152,7 @@
 
   (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 422bf3dc-6ce9-4858-bec3-4e851afbf962)
-    (at 88.85 164.2)
+    (at 94.2 173.5)
     (property "MPN" "GRM188C81C106MA73D")
     (property "Manufacturer" "MURATA")
     (property "Sheetfile" "power.kicad_sch")
@@ -1178,7 +1195,7 @@
 
   (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 44a5ec3a-e3b4-430e-bbe4-23ec09894f3c)
-    (at 102.85 162.35 90)
+    (at 76.05 172.55 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "CRCW040210K0FKEDHP")
@@ -1221,7 +1238,7 @@
 
   (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 45a14ba0-22ec-401b-baf5-94cca914ce4f)
-    (at 106.2 165.55 180)
+    (at 79.4 175.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "04024W226MAT2A")
@@ -1499,7 +1516,7 @@
 
   (footprint "antmicro-footprints:SOT-563" (layer "F.Cu")
     (tedit 614D8AC9) (tstamp 5d763c82-6bc7-4f8b-aba4-14abf56734ac)
-    (at 112.45 162.8)
+    (at 86.65 171.9)
     (property "MPN" "AP62250Z6-7")
     (property "Manufacturer" "Diodes Incorporated")
     (property "Sheetfile" "power.kicad_sch")
@@ -1780,7 +1797,7 @@
 
   (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 6c331673-0fb5-44ac-a2ff-6ceeed22b397)
-    (at 91.4 164.2 180)
+    (at 96.75 173.5 180)
     (property "MPN" "GRM188C81C106MA73D")
     (property "Manufacturer" "MURATA")
     (property "Sheetfile" "power.kicad_sch")
@@ -1823,7 +1840,7 @@
 
   (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 6cbfeb0b-d82d-4701-a86d-c4a5fd040c26)
-    (at 104 164.8)
+    (at 77.2 175)
     (property "MPN" "GRM188C81C106MA73D")
     (property "Manufacturer" "MURATA")
     (property "Sheetfile" "power.kicad_sch")
@@ -1866,7 +1883,7 @@
 
   (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 6f160a41-6969-4cbd-a46f-8bc5244fa01b)
-    (at 91.4 165.65 180)
+    (at 96.75 174.95 180)
     (property "MPN" "GRM188C81C106MA73D")
     (property "Manufacturer" "MURATA")
     (property "Sheetfile" "power.kicad_sch")
@@ -2097,7 +2114,7 @@
 
   (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 7c8c81b4-1ff7-4421-b2c2-92b514401bd7)
-    (at 114.35 164.55 180)
+    (at 88.55 173.65 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "04024W226MAT2A")
@@ -2323,7 +2340,7 @@
 
   (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 8103996f-5802-4ecf-b26a-8258fe855ad2)
-    (at 113.45 160.95)
+    (at 87.65 170.05)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "GRM155R61H104KE14D")
@@ -2545,7 +2562,7 @@
 
   (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 88a19b24-1b46-4a71-b415-99c3c6aed763)
-    (at 112.15 164.8)
+    (at 86.35 173.9)
     (property "MPN" "GRM188C81C106MA73D")
     (property "Manufacturer" "MURATA")
     (property "Sheetfile" "power.kicad_sch")
@@ -2588,7 +2605,7 @@
 
   (footprint "antmicro-footprints:SOT-563" (layer "F.Cu")
     (tedit 614D8AC9) (tstamp 8ccae65c-3fac-4ac2-844c-e0685e14dac1)
-    (at 104.5 162.8)
+    (at 77.7 173)
     (property "MPN" "AP62250Z6-7")
     (property "Manufacturer" "Diodes Incorporated")
     (property "Sheetfile" "power.kicad_sch")
@@ -2730,7 +2747,7 @@
 
   (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 95c1686b-e63a-4378-9d73-5de18b264857)
-    (at 87.75 161.8 90)
+    (at 93.1 171.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "CRCW040210K0FKEDHP")
@@ -2816,7 +2833,7 @@
 
   (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 99245814-0ba6-41de-a9c3-341ab376763f)
-    (at 88.7 160.35)
+    (at 94.05 169.65)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "RC0402FR-1364K9L")
@@ -2859,7 +2876,7 @@
 
   (footprint "antmicro-footprints:SOT-563" (layer "F.Cu")
     (tedit 614D8AC9) (tstamp 9a8cd841-d8be-4424-b005-692fb6ec8cbf)
-    (at 89.4 162.2)
+    (at 94.75 171.5)
     (property "MPN" "AP62250Z6-7")
     (property "Manufacturer" "Diodes Incorporated")
     (property "Sheetfile" "power.kicad_sch")
@@ -3409,7 +3426,7 @@
     (property "Sheetname" "uController")
     (path "/00000000-0000-0000-0000-00005e5f551f/88df215e-9aed-4708-acd9-55fee07496c2")
     (attr through_hole)
-    (fp_text reference "J2" (at -1.825 -8.135) (layer "F.SilkS")
+    (fp_text reference "J2" (at 4.45 -6.165) (layer "F.SilkS")
       (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 8d5f9840-8a95-4d3e-8965-e019c8fab824)
     )
@@ -3490,7 +3507,7 @@
 
   (footprint "antmicro-footprints:L_0806_2016Metric" (layer "F.Cu")
     (tedit 5FD9C126) (tstamp b5a33751-8233-4b67-81f4-492bb209623e)
-    (at 106.7 162.75 -90)
+    (at 79.9 172.95 -90)
     (property "MPN" "74479276210C")
     (property "Manufacturer" "Wurth Elektronik")
     (property "MaxCur" "4.4A")
@@ -3601,7 +3618,7 @@
 
   (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp c0d96d42-ac1f-45e7-a5e6-95c5be9c3c74)
-    (at 105.5 160.95)
+    (at 78.7 171.15)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "GRM155R61H104KE14D")
@@ -3644,7 +3661,7 @@
 
   (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp c108a027-e72e-4d07-a6aa-1fdcbb189e89)
-    (at 90.6 160.35)
+    (at 95.95 169.65)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "GRM155R61H104KE14D")
@@ -3887,7 +3904,7 @@
 
   (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp d795ace2-e839-495d-afa5-f491a918368d)
-    (at 110.8 162.485 90)
+    (at 85 171.585 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "CRCW040210K0FKEDHP")
@@ -3930,7 +3947,7 @@
 
   (footprint "antmicro-footprints:L_0806_2016Metric" (layer "F.Cu")
     (tedit 5FD9C126) (tstamp dc9dfd92-4fa2-43cf-93d5-52cb8f9db714)
-    (at 91.6 162.15 -90)
+    (at 96.95 171.45 -90)
     (property "MPN" "74479276210C")
     (property "Manufacturer" "Wurth Elektronik")
     (property "MaxCur" "4.4A")
@@ -3971,7 +3988,7 @@
 
   (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp e284ba9c-299a-41b2-ab14-ad415f5713bc)
-    (at 111.25 161.035)
+    (at 85.45 170.135)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "ERJ-2RKF3092X")
@@ -4014,7 +4031,7 @@
 
   (footprint "antmicro-footprints:L_0806_2016Metric" (layer "F.Cu")
     (tedit 5FD9C126) (tstamp e8971682-e781-4681-9145-9f10acfd2bf9)
-    (at 114.65 162.75 -90)
+    (at 88.85 171.85 -90)
     (property "MPN" "74479276210C")
     (property "Manufacturer" "Wurth Elektronik")
     (property "MaxCur" "4.4A")
@@ -4055,12 +4072,12 @@
 
   (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp ea8fce0a-08f3-439c-b773-2a467c3e4b84)
-    (at 104.81 173.5408)
+    (at 72.15 185.7)
     (property "Sheetfile" "power.kicad_sch")
     (property "Sheetname" "Power")
     (path "/00000000-0000-0000-0000-00005e5f54df/3595d748-d9d2-402b-9361-30a741d3ae64")
     (attr exclude_from_pos_files)
-    (fp_text reference "TP1" (at -1.91 -0.08) (layer "F.SilkS")
+    (fp_text reference "TP1" (at 0.4 -0.95) (layer "F.SilkS")
       (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 8b79025e-c07c-46f4-b449-38a2b9e88a12)
     )
@@ -4239,7 +4256,7 @@
 
   (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp f0e4c2fa-9b8e-4ebd-a346-7e7e2bcf355c)
-    (at 103.3 160.95)
+    (at 76.5 171.15)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "MPN" "MCMR04X4702FTL")
@@ -6748,6 +6765,42 @@
         (xy 27 123)
         (xy 47 123)
       )
+    )
+  )
+  (group "" (id 075fac98-3d36-4666-a3b4-54d6f9e9a299)
+    (members
+      14b4cf5b-42e2-413e-8b44-54117090ac77
+      44a5ec3a-e3b4-430e-bbe4-23ec09894f3c
+      45a14ba0-22ec-401b-baf5-94cca914ce4f
+      6cbfeb0b-d82d-4701-a86d-c4a5fd040c26
+      8ccae65c-3fac-4ac2-844c-e0685e14dac1
+      b5a33751-8233-4b67-81f4-492bb209623e
+      c0d96d42-ac1f-45e7-a5e6-95c5be9c3c74
+      f0e4c2fa-9b8e-4ebd-a346-7e7e2bcf355c
+    )
+  )
+  (group "" (id 2444f689-99cd-4e37-a462-635d357a0c5b)
+    (members
+      422bf3dc-6ce9-4858-bec3-4e851afbf962
+      6c331673-0fb5-44ac-a2ff-6ceeed22b397
+      6f160a41-6969-4cbd-a46f-8bc5244fa01b
+      95c1686b-e63a-4378-9d73-5de18b264857
+      99245814-0ba6-41de-a9c3-341ab376763f
+      9a8cd841-d8be-4424-b005-692fb6ec8cbf
+      c108a027-e72e-4d07-a6aa-1fdcbb189e89
+      dc9dfd92-4fa2-43cf-93d5-52cb8f9db714
+    )
+  )
+  (group "" (id 57d1b14f-d915-42c1-a496-3db9ec154f30)
+    (members
+      0d3f7764-971f-4dbe-bcf1-83623af4e64d
+      5d763c82-6bc7-4f8b-aba4-14abf56734ac
+      7c8c81b4-1ff7-4421-b2c2-92b514401bd7
+      8103996f-5802-4ecf-b26a-8258fe855ad2
+      88a19b24-1b46-4a71-b415-99c3c6aed763
+      d795ace2-e839-495d-afa5-f491a918368d
+      e284ba9c-299a-41b2-ab14-ad415f5713bc
+      e8971682-e781-4681-9145-9f10acfd2bf9
     )
   )
 )
