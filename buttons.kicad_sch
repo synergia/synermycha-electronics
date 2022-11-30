@@ -1,612 +1,1186 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid dab6bffc-f0da-45a8-b82f-d1e523819af7)
-
-  (paper "A3")
-
-  (lib_symbols
-    (symbol "antmicroPushbuttonSwitches:SKRHABE010" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "S" (id 0) (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SKRHABE010" (id 1) (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "antmicro-footprints:SKRHABE010" (id 2) (at -12.7 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRH-1370966.pdf" (id 3) (at -27.94 -15.24 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "SKRHABE010" (id 4) (at -7.62 -20.32 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Manufacturer" "Alps Alpine" (id 5) (at -5.08 -17.78 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "ki_description" "Multi-Directional Switches 4-directn cntr push W/boss " (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SKRHABE010_0_0"
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -7.62 180) (length 2.54)
-          (name "COMM" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "SKRHABE010_0_1"
-        (rectangle (start -5.08 6.35) (end 2.54 -8.89)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-      )
-      (symbol "SKRHABE010_1_1"
-        (pin passive line (at 5.08 5.08 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -5.08 180) (length 2.54)
-          (name "CNTR" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroResistorNetworksArrays:4x10k_0201_array" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -5.08 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "4x10k_0201_array" (id 1) (at 0 -2.54 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:EXB18V" (id 2) (at -5.08 19.05 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" (id 3) (at -5.08 19.05 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "EXB-18V103JX" (id 4) (at -5.08 24.13 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Manufacturer" "Panasonic" (id 5) (at -5.08 21.59 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "4x2k2_0201" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_description" "10.0 kOhm Jumper 31mW Power Per Element Isolated 4 Resistor Network/Array 0502 (1406 Metric), Long Side Terminals" (id 7) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "4x10k_0201_array_0_1"
-        (rectangle (start -3.81 11.43) (end 2.54 1.27)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (rectangle (start -1.27 8.89) (end -1.27 8.89)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 7.62)
-            (xy -3.175 7.62)
-            (xy -2.794 8.255)
-            (xy -2.159 7.112)
-            (xy -1.524 8.255)
-            (xy -0.889 7.112)
-            (xy -0.254 8.255)
-            (xy 0.381 7.112)
-            (xy 1.016 8.255)
-            (xy 1.397 7.62)
-            (xy 2.413 7.62)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "4x10k_0201_array_1_1"
-        (polyline
-          (pts
-            (xy -3.81 2.54)
-            (xy -3.175 2.54)
-            (xy -2.794 3.175)
-            (xy -2.159 2.032)
-            (xy -1.524 3.175)
-            (xy -0.889 2.032)
-            (xy -0.254 3.175)
-            (xy 0.381 2.032)
-            (xy 1.016 3.175)
-            (xy 1.397 2.54)
-            (xy 2.413 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 5.08)
-            (xy -3.175 5.08)
-            (xy -2.794 5.715)
-            (xy -2.159 4.572)
-            (xy -1.524 5.715)
-            (xy -0.889 4.572)
-            (xy -0.254 5.715)
-            (xy 0.381 4.572)
-            (xy 1.016 5.715)
-            (xy 1.397 5.08)
-            (xy 2.413 5.08)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 10.16)
-            (xy -3.175 10.16)
-            (xy -2.794 10.795)
-            (xy -2.159 9.652)
-            (xy -1.524 10.795)
-            (xy -0.889 9.652)
-            (xy -0.254 10.795)
-            (xy 0.381 9.652)
-            (xy 1.016 10.795)
-            (xy 1.397 10.16)
-            (xy 2.413 10.16)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 10.16 0) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 7.62 0) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 2.54 180) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 5.08 180) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 7.62 180) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 10.16 180) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroResistors0402:R_10k_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_10k_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "VISHAY" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "CRCW040210K0FKEDHP" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "10k" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_10k_0402_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (bus_entry (at 224.79 95.885) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 32f71aa2-7d22-4300-8220-5214fb9aa8a3)
-  )
-  (bus_entry (at 224.79 103.505) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3a941202-bcb2-4c90-b900-f810a0163e37)
-  )
-  (bus_entry (at 224.79 103.505) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4447d50b-b586-499e-95dd-ae613ddfb3c2)
-  )
-  (bus_entry (at 224.79 100.965) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 521f0d52-5003-4d81-8acc-aadadbd60a99)
-  )
-  (bus_entry (at 224.79 98.425) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 55fa7a52-3a40-46f3-b73b-74174e03fcfb)
-  )
-  (bus_entry (at 224.79 93.345) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 66341537-5d4c-492d-95fa-375707d14c7f)
-  )
-  (bus_entry (at 222.25 100.965) (size 2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6b530a98-9f72-4a1f-a63e-0f4d6927343c)
-  )
-  (bus_entry (at 222.25 98.425) (size 2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6bb03437-fb07-48e5-83e6-b906faf54571)
-  )
-  (bus_entry (at 222.25 95.885) (size 2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 77226490-6ab4-43c4-91b6-93317e6e001d)
-  )
-  (bus_entry (at 222.25 103.505) (size 2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8ef34db0-bad0-413b-9162-c82b6487d201)
-  )
-  (bus_entry (at 224.79 93.345) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a32d9d0d-551c-4549-a36b-0a4f42a074b4)
-  )
-  (bus_entry (at 224.79 95.885) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b8ed8474-0ccf-425f-b4a6-cf90bad3d9e1)
-  )
-  (bus_entry (at 224.79 103.505) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c59e06bc-c670-455f-8fda-73c23086570d)
-  )
-  (bus_entry (at 224.79 100.965) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d7ae7dba-21b7-4994-b6a1-375e814c1d78)
-  )
-  (bus_entry (at 224.79 98.425) (size -2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid edfebb55-d12d-474f-9165-c7dbf8518976)
-  )
-  (bus_entry (at 222.25 106.045) (size 2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fe147b03-7e9e-464a-b269-4da05ddb4780)
-  )
-
-  (bus (pts (xy 224.79 92.71) (xy 224.79 93.345))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 04383bed-50de-4e5d-809d-dc0a972633f2)
-  )
-  (bus (pts (xy 224.79 100.965) (xy 224.79 103.505))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 154fe4f5-1a1d-48c5-b0ba-17cc3ecc7d3a)
-  )
-
-  (wire (pts (xy 209.55 95.885) (xy 222.25 95.885))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 34330ff8-616d-4996-a693-637d4d2463b8)
-  )
-  (wire (pts (xy 170.815 98.425) (xy 183.515 98.425))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 46f5da57-be03-4aa9-8e83-5ae0bbf3c69e)
-  )
-  (bus (pts (xy 224.79 95.885) (xy 224.79 98.425))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 47bf2ab1-75c8-43c8-b038-8c17546ca7e3)
-  )
-
-  (wire (pts (xy 187.96 103.505) (xy 200.66 103.505))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 54f56af3-f984-4e19-8c19-8d34d517a7b8)
-  )
-  (bus (pts (xy 226.06 91.44) (xy 232.41 91.44))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5ff4d9e3-708c-4892-ba7d-750a7a8c3d25)
-  )
-
-  (wire (pts (xy 187.96 98.425) (xy 200.66 98.425))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 67699a3a-390e-43b7-8f91-739669bb1c1e)
-  )
-  (wire (pts (xy 187.96 100.965) (xy 200.66 100.965))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7ccca775-36b6-40b2-a59c-c4061164b317)
-  )
-  (wire (pts (xy 170.815 108.585) (xy 172.085 108.585))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 82372307-389e-4a72-9339-3c9e464b0ea3)
-  )
-  (wire (pts (xy 209.55 100.965) (xy 222.25 100.965))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 827a1bd5-0170-4105-8835-69c85fd76dcd)
-  )
-  (wire (pts (xy 170.815 106.045) (xy 183.515 106.045))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 87618c71-76bf-4524-a3fd-1b75c9428b72)
-  )
-  (wire (pts (xy 172.085 108.585) (xy 172.085 109.855))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8b2c26a7-881f-4f0f-b514-1f7181afeb7b)
-  )
-  (wire (pts (xy 209.55 98.425) (xy 222.25 98.425))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9ce0cf81-c765-4dc9-adb8-bede822cb641)
-  )
-  (wire (pts (xy 170.815 100.965) (xy 183.515 100.965))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a18b0058-48af-4432-9812-3fdac0df2be9)
-  )
-  (wire (pts (xy 208.915 106.045) (xy 222.25 106.045))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a64dc320-1436-40bd-995c-adbc6d164e7e)
-  )
-  (bus (pts (xy 224.79 98.425) (xy 224.79 100.965))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b5f5f6d8-cec5-4e51-9f36-37a1bb6b30b7)
-  )
-
-  (wire (pts (xy 170.815 95.885) (xy 183.515 95.885))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid bea310bf-1f51-4636-bd7f-fe64ae40aff3)
-  )
-  (wire (pts (xy 170.815 103.505) (xy 183.515 103.505))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ce51e458-4d3e-4818-b61d-85564225db1c)
-  )
-  (wire (pts (xy 209.55 103.505) (xy 222.25 103.505))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d6480f27-f894-4c5e-8bb6-5be31b9ebced)
-  )
-  (wire (pts (xy 187.96 95.885) (xy 200.66 95.885))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d688ae0e-a5af-4ea3-afd5-5fcb58f59840)
-  )
-  (bus (pts (xy 224.79 93.345) (xy 224.79 95.885))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d8284d24-3f01-4654-a56b-e0bcade45bb9)
-  )
-  (bus (pts (xy 224.79 92.71) (xy 226.06 91.44))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f5a98547-9c1e-4f83-80d1-1da1f2bf964e)
-  )
-
-  (wire (pts (xy 187.96 106.045) (xy 201.295 106.045))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fe2da885-1ef9-4fd0-89c3-4d76d56cfa22)
-  )
-
-  (label "JOY_~{OK}" (at 187.96 95.885 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1670f486-d986-4ed1-90da-4d462c033312)
-  )
-  (label "JOY.~{LEFT}" (at 210.185 106.045 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1d1651b9-8645-45ca-b6a5-0bfd06ab47e4)
-  )
-  (label "JOY.~{RIGHT}" (at 210.1554 103.505 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 47b50f9e-eebb-4b28-913a-ebfa06a2e93d)
-  )
-  (label "JOY_~{LEFT}" (at 187.96 106.045 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 49e52362-5362-45c2-aacc-00e0c23a174b)
-  )
-  (label "JOY.~{DOWN}" (at 210.185 100.965 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5dffe127-4d46-4ba3-8e4f-07ee9bf2d491)
-  )
-  (label "JOY_~{LEFT}" (at 183.515 100.965 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 78d2b30f-8dd7-4b16-896d-b9de48cada72)
-  )
-  (label "JOY_~{RIGHT}" (at 187.96 103.505 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 79ec16d9-3298-4f6b-899f-a1803c8937b2)
-  )
-  (label "JOY_~{OK}" (at 183.515 106.045 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 82bf760d-7e9f-4836-b7df-6c1709872d53)
-  )
-  (label "JOY.~{OK}" (at 210.185 95.885 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9a25cb27-1e4c-48a8-81dc-7efc36ec3002)
-  )
-  (label "JOY_~{UP}" (at 183.515 95.885 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 9dfa54c2-0df7-4959-a764-ecb830a1bacb)
-  )
-  (label "JOY.~{UP}" (at 210.185 98.425 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b6fc681e-41ff-4e71-a4e1-9b6ee02cd39e)
-  )
-  (label "JOY_~{RIGHT}" (at 183.515 98.425 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b72d7790-9f75-4853-a13a-8aa62854d137)
-  )
-  (label "JOY_~{UP}" (at 187.96 98.425 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e0d0f4f3-bf1c-450f-b417-f4697ef0f7c0)
-  )
-  (label "JOY_~{DOWN}" (at 183.515 103.505 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid f1b29621-18da-435f-989b-55fe63696934)
-  )
-  (label "JOY_~{DOWN}" (at 187.96 100.965 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fe3fa2e6-ad80-4731-b2bd-10f072a6dcd4)
-  )
-
-  (hierarchical_label "JOY{JOY}" (shape output) (at 232.41 91.44 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7dd1ae5b-55c7-48cd-ae82-7a059c178448)
-  )
-
-  (symbol (lib_id "antmicroPushbuttonSwitches:SKRHABE010") (at 165.735 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 9ff91077-a21c-4e73-96a3-71d709bb30ac)
-    (property "Reference" "S1" (id 0) (at 164.465 88.9 0))
-    (property "Value" "SKRHABE010" (id 1) (at 164.465 91.44 0))
-    (property "Footprint" "antmicro-footprints:SKRHABE010" (id 2) (at 153.035 113.665 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRH-1370966.pdf" (id 3) (at 137.795 116.205 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "SKRHABE010" (id 4) (at 158.115 121.285 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Manufacturer" "Alps Alpine" (id 5) (at 160.655 118.745 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (pin "3" (uuid 009c1ac7-e668-4672-8e8c-a2fa760ee6ac))
-    (pin "4" (uuid 0b3eee24-204f-4d96-b2d5-1d67035183fb))
-    (pin "5" (uuid f43565b8-c087-4add-81a0-e45a8b1aba43))
-    (pin "6" (uuid 4162f8ac-2eab-4bf9-a199-500ead659fe6))
-    (pin "1" (uuid 64e91889-5a16-4522-bfa9-d2f22753cf7d))
-    (pin "2" (uuid 3eb036cf-d77a-4751-bc56-94c10084b04e))
-  )
-
-  (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 205.105 106.045 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid ca61f237-90cd-4b20-a90e-2d40fb6081ba)
-    (property "Reference" "R14" (id 0) (at 205.105 108.585 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "R_10k_0402" (id 1) (at 205.105 109.855 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 210.185 100.965 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 205.105 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "VISHAY" (id 4) (at 210.185 95.885 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "CRCW040210K0FKEDHP" (id 5) (at 210.185 98.425 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "10k" (id 6) (at 205.105 111.125 0))
-    (pin "1" (uuid 53694c00-acc5-4df9-8937-7f4246e3b15c))
-    (pin "2" (uuid da06ff77-366b-4500-ad7f-6e07fe8ca226))
-  )
-
-  (symbol (lib_id "antmicroResistorNetworksArrays:4x10k_0201_array") (at 205.74 106.045 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid d3ba0d90-c63e-413a-99ea-0fe84a7eb408)
-    (property "Reference" "R1" (id 0) (at 205.74 90.17 0))
-    (property "Value" "4x10k_0201_array" (id 1) (at 205.74 108.585 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "antmicro-footprints:EXB18V" (id 2) (at 200.66 86.995 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" (id 3) (at 200.66 86.995 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "EXB-18V103JX" (id 4) (at 200.66 81.915 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Manufacturer" "Panasonic" (id 5) (at 200.66 84.455 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "4x2k2_0201" (id 6) (at 205.74 92.71 0))
-    (pin "1" (uuid ccf20bea-4a39-4e4a-9c30-f23b33616f04))
-    (pin "2" (uuid aa0fcb55-c4a4-403a-82ab-c42b17a45d76))
-    (pin "3" (uuid 8195fb59-2727-4b16-b3f9-4c09708e15bc))
-    (pin "4" (uuid 9fe13386-a2de-41f9-a82f-2065b63403cd))
-    (pin "5" (uuid 9c18b691-fdd1-44c9-aefb-5c6c5b1833dd))
-    (pin "6" (uuid c622fee0-d7bb-4ec4-82a4-ad15eed0b79b))
-    (pin "7" (uuid 217a34f6-172d-43be-8415-b9919e16d819))
-    (pin "8" (uuid acddfc51-ef35-4653-938f-4d00ea0e70cd))
-  )
-
-  (symbol (lib_id "power:GND") (at 172.085 109.855 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid df7bfde2-2c03-49de-bc38-ca66891f5917)
-    (property "Reference" "#PWR0101" (id 0) (at 172.085 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 172.212 114.2492 0))
-    (property "Footprint" "" (id 2) (at 172.085 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 172.085 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b146d8e4-69f3-44fd-a4f0-0638dc4d9302))
-  )
-)
+(kicad_sch 
+    (version 20211123) 
+    (generator eeschema) 
+    (uuid dab6bffc-f0da-45a8-b82f-d1e523819af7) 
+    (paper "A3") 
+    (lib_symbols 
+        (symbol "synermycha-electronics:SKRHABE010" 
+            (pin_names 
+                (offset 1.016)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "S" 
+                (id 0) 
+                (at 0 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Value" "SKRHABE010" 
+                (id 1) 
+                (at 0 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "synermycha-electronics-footprints:SKRHABE010" 
+                (id 2) 
+                (at -12.7 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRH-1370966.pdf" 
+                (id 3) 
+                (at -27.94 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "SKRHABE010" 
+                (id 4) 
+                (at -7.62 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Manufacturer" "Alps Alpine" 
+                (id 5) 
+                (at -5.08 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "ki_description" "Multi-Directional Switches 4-directn cntr push W/boss " 
+                (id 6) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "SKRHABE010_0_0" 
+                (pin passive line 
+                    (at 5.08 0 180) 
+                    (length 2.54) 
+                    (name "C" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 2.54 180) 
+                    (length 2.54) 
+                    (name "B" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 -7.62 180) 
+                    (length 2.54) 
+                    (name "COMM" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 -2.54 180) 
+                    (length 2.54) 
+                    (name "D" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))))) 
+            (symbol "SKRHABE010_0_1" 
+                (rectangle 
+                    (start -5.08 6.35) 
+                    (end 2.54 -8.89) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background)))) 
+            (symbol "SKRHABE010_1_1" 
+                (pin passive line 
+                    (at 5.08 5.08 180) 
+                    (length 2.54) 
+                    (name "A" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 5.08 -5.08 180) 
+                    (length 2.54) 
+                    (name "CNTR" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "synermycha-electronics:4x10k_0201_array" 
+            (pin_names 
+                (offset 1.016)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -5.08 13.97 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify left))) 
+            (property "Value" "4x10k_0201_array" 
+                (id 1) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "synermycha-electronics-footprints:EXB18V" 
+                (id 2) 
+                (at -5.08 19.05 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
+                (id 3) 
+                (at -5.08 19.05 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "EXB-18V103JX" 
+                (id 4) 
+                (at -5.08 24.13 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Manufacturer" "Panasonic" 
+                (id 5) 
+                (at -5.08 21.59 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "4x2k2_0201" 
+                (id 6) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "ki_description" "10.0 kOhm Jumper 31mW Power Per Element Isolated 4 Resistor Network/Array 0502 (1406 Metric), Long Side Terminals" 
+                (id 7) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "4x10k_0201_array_0_1" 
+                (rectangle 
+                    (start -3.81 11.43) 
+                    (end 2.54 1.27) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (rectangle 
+                    (start -1.27 8.89) 
+                    (end -1.27 8.89) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -3.81 7.62) 
+                        (xy -3.175 7.62) 
+                        (xy -2.794 8.255) 
+                        (xy -2.159 7.112) 
+                        (xy -1.524 8.255) 
+                        (xy -0.889 7.112) 
+                        (xy -0.254 8.255) 
+                        (xy 0.381 7.112) 
+                        (xy 1.016 8.255) 
+                        (xy 1.397 7.62) 
+                        (xy 2.413 7.62)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "4x10k_0201_array_1_1" 
+                (polyline 
+                    (pts 
+                        (xy -3.81 2.54) 
+                        (xy -3.175 2.54) 
+                        (xy -2.794 3.175) 
+                        (xy -2.159 2.032) 
+                        (xy -1.524 3.175) 
+                        (xy -0.889 2.032) 
+                        (xy -0.254 3.175) 
+                        (xy 0.381 2.032) 
+                        (xy 1.016 3.175) 
+                        (xy 1.397 2.54) 
+                        (xy 2.413 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -3.81 5.08) 
+                        (xy -3.175 5.08) 
+                        (xy -2.794 5.715) 
+                        (xy -2.159 4.572) 
+                        (xy -1.524 5.715) 
+                        (xy -0.889 4.572) 
+                        (xy -0.254 5.715) 
+                        (xy 0.381 4.572) 
+                        (xy 1.016 5.715) 
+                        (xy 1.397 5.08) 
+                        (xy 2.413 5.08)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -3.81 10.16) 
+                        (xy -3.175 10.16) 
+                        (xy -2.794 10.795) 
+                        (xy -2.159 9.652) 
+                        (xy -1.524 10.795) 
+                        (xy -0.889 9.652) 
+                        (xy -0.254 10.795) 
+                        (xy 0.381 9.652) 
+                        (xy 1.016 10.795) 
+                        (xy 1.397 10.16) 
+                        (xy 2.413 10.16)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -5.08 10.16 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at -5.08 7.62 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at -5.08 5.08 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at -5.08 2.54 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 3.81 2.54 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 3.81 5.08 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 3.81 7.62 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 3.81 10.16 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "8" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "synermycha-electronics:R_10k_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_10k_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "synermycha-electronics-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "VISHAY" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "CRCW040210K0FKEDHP" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "10k" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_10k_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "synermycha-electronics:GND" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "#PWR" 
+                (id 0) 
+                (at 0 -6.35 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "GND" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_keywords" "power-flag" 
+                (id 4) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" 
+                (id 5) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "GND_0_1" 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 -1.27) 
+                        (xy 1.27 -1.27) 
+                        (xy 0 -2.54) 
+                        (xy -1.27 -1.27) 
+                        (xy 0 -1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "GND_1_1" 
+                (pin power_in line 
+                    (at 0 0 270) 
+                    (length 0) hide 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))))))) 
+    (bus_entry 
+        (at 224.79 95.885) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 32f71aa2-7d22-4300-8220-5214fb9aa8a3)) 
+    (bus_entry 
+        (at 224.79 103.505) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3a941202-bcb2-4c90-b900-f810a0163e37)) 
+    (bus_entry 
+        (at 224.79 103.505) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 4447d50b-b586-499e-95dd-ae613ddfb3c2)) 
+    (bus_entry 
+        (at 224.79 100.965) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 521f0d52-5003-4d81-8acc-aadadbd60a99)) 
+    (bus_entry 
+        (at 224.79 98.425) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 55fa7a52-3a40-46f3-b73b-74174e03fcfb)) 
+    (bus_entry 
+        (at 224.79 93.345) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 66341537-5d4c-492d-95fa-375707d14c7f)) 
+    (bus_entry 
+        (at 222.25 100.965) 
+        (size 2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 6b530a98-9f72-4a1f-a63e-0f4d6927343c)) 
+    (bus_entry 
+        (at 222.25 98.425) 
+        (size 2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 6bb03437-fb07-48e5-83e6-b906faf54571)) 
+    (bus_entry 
+        (at 222.25 95.885) 
+        (size 2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 77226490-6ab4-43c4-91b6-93317e6e001d)) 
+    (bus_entry 
+        (at 222.25 103.505) 
+        (size 2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 8ef34db0-bad0-413b-9162-c82b6487d201)) 
+    (bus_entry 
+        (at 224.79 93.345) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a32d9d0d-551c-4549-a36b-0a4f42a074b4)) 
+    (bus_entry 
+        (at 224.79 95.885) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b8ed8474-0ccf-425f-b4a6-cf90bad3d9e1)) 
+    (bus_entry 
+        (at 224.79 103.505) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c59e06bc-c670-455f-8fda-73c23086570d)) 
+    (bus_entry 
+        (at 224.79 100.965) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d7ae7dba-21b7-4994-b6a1-375e814c1d78)) 
+    (bus_entry 
+        (at 224.79 98.425) 
+        (size -2.54 2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid edfebb55-d12d-474f-9165-c7dbf8518976)) 
+    (bus_entry 
+        (at 222.25 106.045) 
+        (size 2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid fe147b03-7e9e-464a-b269-4da05ddb4780)) 
+    (bus 
+        (pts 
+            (xy 224.79 92.71) 
+            (xy 224.79 93.345)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 04383bed-50de-4e5d-809d-dc0a972633f2)) 
+    (bus 
+        (pts 
+            (xy 224.79 100.965) 
+            (xy 224.79 103.505)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 154fe4f5-1a1d-48c5-b0ba-17cc3ecc7d3a)) 
+    (wire 
+        (pts 
+            (xy 209.55 95.885) 
+            (xy 222.25 95.885)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 34330ff8-616d-4996-a693-637d4d2463b8)) 
+    (wire 
+        (pts 
+            (xy 170.815 98.425) 
+            (xy 183.515 98.425)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 46f5da57-be03-4aa9-8e83-5ae0bbf3c69e)) 
+    (bus 
+        (pts 
+            (xy 224.79 95.885) 
+            (xy 224.79 98.425)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 47bf2ab1-75c8-43c8-b038-8c17546ca7e3)) 
+    (wire 
+        (pts 
+            (xy 187.96 103.505) 
+            (xy 200.66 103.505)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 54f56af3-f984-4e19-8c19-8d34d517a7b8)) 
+    (bus 
+        (pts 
+            (xy 226.06 91.44) 
+            (xy 232.41 91.44)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 5ff4d9e3-708c-4892-ba7d-750a7a8c3d25)) 
+    (wire 
+        (pts 
+            (xy 187.96 98.425) 
+            (xy 200.66 98.425)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 67699a3a-390e-43b7-8f91-739669bb1c1e)) 
+    (wire 
+        (pts 
+            (xy 187.96 100.965) 
+            (xy 200.66 100.965)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 7ccca775-36b6-40b2-a59c-c4061164b317)) 
+    (wire 
+        (pts 
+            (xy 170.815 108.585) 
+            (xy 172.085 108.585)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 82372307-389e-4a72-9339-3c9e464b0ea3)) 
+    (wire 
+        (pts 
+            (xy 209.55 100.965) 
+            (xy 222.25 100.965)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 827a1bd5-0170-4105-8835-69c85fd76dcd)) 
+    (wire 
+        (pts 
+            (xy 170.815 106.045) 
+            (xy 183.515 106.045)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 87618c71-76bf-4524-a3fd-1b75c9428b72)) 
+    (wire 
+        (pts 
+            (xy 172.085 108.585) 
+            (xy 172.085 109.855)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 8b2c26a7-881f-4f0f-b514-1f7181afeb7b)) 
+    (wire 
+        (pts 
+            (xy 209.55 98.425) 
+            (xy 222.25 98.425)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 9ce0cf81-c765-4dc9-adb8-bede822cb641)) 
+    (wire 
+        (pts 
+            (xy 170.815 100.965) 
+            (xy 183.515 100.965)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a18b0058-48af-4432-9812-3fdac0df2be9)) 
+    (wire 
+        (pts 
+            (xy 208.915 106.045) 
+            (xy 222.25 106.045)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a64dc320-1436-40bd-995c-adbc6d164e7e)) 
+    (bus 
+        (pts 
+            (xy 224.79 98.425) 
+            (xy 224.79 100.965)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b5f5f6d8-cec5-4e51-9f36-37a1bb6b30b7)) 
+    (wire 
+        (pts 
+            (xy 170.815 95.885) 
+            (xy 183.515 95.885)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid bea310bf-1f51-4636-bd7f-fe64ae40aff3)) 
+    (wire 
+        (pts 
+            (xy 170.815 103.505) 
+            (xy 183.515 103.505)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid ce51e458-4d3e-4818-b61d-85564225db1c)) 
+    (wire 
+        (pts 
+            (xy 209.55 103.505) 
+            (xy 222.25 103.505)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d6480f27-f894-4c5e-8bb6-5be31b9ebced)) 
+    (wire 
+        (pts 
+            (xy 187.96 95.885) 
+            (xy 200.66 95.885)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d688ae0e-a5af-4ea3-afd5-5fcb58f59840)) 
+    (bus 
+        (pts 
+            (xy 224.79 93.345) 
+            (xy 224.79 95.885)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d8284d24-3f01-4654-a56b-e0bcade45bb9)) 
+    (bus 
+        (pts 
+            (xy 224.79 92.71) 
+            (xy 226.06 91.44)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid f5a98547-9c1e-4f83-80d1-1da1f2bf964e)) 
+    (wire 
+        (pts 
+            (xy 187.96 106.045) 
+            (xy 201.295 106.045)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid fe2da885-1ef9-4fd0-89c3-4d76d56cfa22)) 
+    (label "JOY_~{OK}" 
+        (at 187.96 95.885 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 1670f486-d986-4ed1-90da-4d462c033312)) 
+    (label "JOY.~{LEFT}" 
+        (at 210.185 106.045 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 1d1651b9-8645-45ca-b6a5-0bfd06ab47e4)) 
+    (label "JOY.~{RIGHT}" 
+        (at 210.1554 103.505 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 47b50f9e-eebb-4b28-913a-ebfa06a2e93d)) 
+    (label "JOY_~{LEFT}" 
+        (at 187.96 106.045 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 49e52362-5362-45c2-aacc-00e0c23a174b)) 
+    (label "JOY.~{DOWN}" 
+        (at 210.185 100.965 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 5dffe127-4d46-4ba3-8e4f-07ee9bf2d491)) 
+    (label "JOY_~{LEFT}" 
+        (at 183.515 100.965 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 78d2b30f-8dd7-4b16-896d-b9de48cada72)) 
+    (label "JOY_~{RIGHT}" 
+        (at 187.96 103.505 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 79ec16d9-3298-4f6b-899f-a1803c8937b2)) 
+    (label "JOY_~{OK}" 
+        (at 183.515 106.045 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 82bf760d-7e9f-4836-b7df-6c1709872d53)) 
+    (label "JOY.~{OK}" 
+        (at 210.185 95.885 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 9a25cb27-1e4c-48a8-81dc-7efc36ec3002)) 
+    (label "JOY_~{UP}" 
+        (at 183.515 95.885 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 9dfa54c2-0df7-4959-a764-ecb830a1bacb)) 
+    (label "JOY.~{UP}" 
+        (at 210.185 98.425 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid b6fc681e-41ff-4e71-a4e1-9b6ee02cd39e)) 
+    (label "JOY_~{RIGHT}" 
+        (at 183.515 98.425 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid b72d7790-9f75-4853-a13a-8aa62854d137)) 
+    (label "JOY_~{UP}" 
+        (at 187.96 98.425 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid e0d0f4f3-bf1c-450f-b417-f4697ef0f7c0)) 
+    (label "JOY_~{DOWN}" 
+        (at 183.515 103.505 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid f1b29621-18da-435f-989b-55fe63696934)) 
+    (label "JOY_~{DOWN}" 
+        (at 187.96 100.965 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid fe3fa2e6-ad80-4731-b2bd-10f072a6dcd4)) 
+    (hierarchical_label "JOY{JOY}" 
+        (shape output) 
+        (at 232.41 91.44 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 7dd1ae5b-55c7-48cd-ae82-7a059c178448)) 
+    (symbol 
+        (lib_id "synermycha-electronics:SKRHABE010") 
+        (at 165.735 100.965 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (fields_autoplaced) 
+        (uuid 9ff91077-a21c-4e73-96a3-71d709bb30ac) 
+        (property "Reference" "S1" 
+            (id 0) 
+            (at 164.465 88.9 0)) 
+        (property "Value" "SKRHABE010" 
+            (id 1) 
+            (at 164.465 91.44 0)) 
+        (property "Footprint" "synermycha-electronics-footprints:SKRHABE010" 
+            (id 2) 
+            (at 153.035 113.665 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left) hide)) 
+        (property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRH-1370966.pdf" 
+            (id 3) 
+            (at 137.795 116.205 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "SKRHABE010" 
+            (id 4) 
+            (at 158.115 121.285 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "Alps Alpine" 
+            (id 5) 
+            (at 160.655 118.745 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "3" 
+            (uuid 009c1ac7-e668-4672-8e8c-a2fa760ee6ac)) 
+        (pin "4" 
+            (uuid 0b3eee24-204f-4d96-b2d5-1d67035183fb)) 
+        (pin "5" 
+            (uuid f43565b8-c087-4add-81a0-e45a8b1aba43)) 
+        (pin "6" 
+            (uuid 4162f8ac-2eab-4bf9-a199-500ead659fe6)) 
+        (pin "1" 
+            (uuid 64e91889-5a16-4522-bfa9-d2f22753cf7d)) 
+        (pin "2" 
+            (uuid 3eb036cf-d77a-4751-bc56-94c10084b04e))) 
+    (symbol 
+        (lib_id "synermycha-electronics:R_10k_0402") 
+        (at 205.105 106.045 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid ca61f237-90cd-4b20-a90e-2d40fb6081ba) 
+        (property "Reference" "R14" 
+            (id 0) 
+            (at 205.105 108.585 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "R_10k_0402" 
+            (id 1) 
+            (at 205.105 109.855 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "synermycha-electronics-footprints:0402-res" 
+            (id 2) 
+            (at 210.185 100.965 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 205.105 106.045 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "VISHAY" 
+            (id 4) 
+            (at 210.185 95.885 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW040210K0FKEDHP" 
+            (id 5) 
+            (at 210.185 98.425 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "10k" 
+            (id 6) 
+            (at 205.105 111.125 0)) 
+        (pin "1" 
+            (uuid 53694c00-acc5-4df9-8937-7f4246e3b15c)) 
+        (pin "2" 
+            (uuid da06ff77-366b-4500-ad7f-6e07fe8ca226))) 
+    (symbol 
+        (lib_id "synermycha-electronics:4x10k_0201_array") 
+        (at 205.74 106.045 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid d3ba0d90-c63e-413a-99ea-0fe84a7eb408) 
+        (property "Reference" "R1" 
+            (id 0) 
+            (at 205.74 90.17 0)) 
+        (property "Value" "4x10k_0201_array" 
+            (id 1) 
+            (at 205.74 108.585 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "synermycha-electronics-footprints:EXB18V" 
+            (id 2) 
+            (at 200.66 86.995 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
+            (id 3) 
+            (at 200.66 86.995 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "EXB-18V103JX" 
+            (id 4) 
+            (at 200.66 81.915 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 5) 
+            (at 200.66 84.455 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "4x2k2_0201" 
+            (id 6) 
+            (at 205.74 92.71 0)) 
+        (pin "1" 
+            (uuid ccf20bea-4a39-4e4a-9c30-f23b33616f04)) 
+        (pin "2" 
+            (uuid aa0fcb55-c4a4-403a-82ab-c42b17a45d76)) 
+        (pin "3" 
+            (uuid 8195fb59-2727-4b16-b3f9-4c09708e15bc)) 
+        (pin "4" 
+            (uuid 9fe13386-a2de-41f9-a82f-2065b63403cd)) 
+        (pin "5" 
+            (uuid 9c18b691-fdd1-44c9-aefb-5c6c5b1833dd)) 
+        (pin "6" 
+            (uuid c622fee0-d7bb-4ec4-82a4-ad15eed0b79b)) 
+        (pin "7" 
+            (uuid 217a34f6-172d-43be-8415-b9919e16d819)) 
+        (pin "8" 
+            (uuid acddfc51-ef35-4653-938f-4d00ea0e70cd))) 
+    (symbol 
+        (lib_id "synermycha-electronics:GND") 
+        (at 172.085 109.855 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid df7bfde2-2c03-49de-bc38-ca66891f5917) 
+        (property "Reference" "#PWR0101" 
+            (id 0) 
+            (at 172.085 116.205 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 172.212 114.2492 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 172.085 109.855 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 172.085 109.855 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid b146d8e4-69f3-44fd-a4f0-0638dc4d9302))))

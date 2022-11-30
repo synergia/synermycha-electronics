@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "synermycha-electronics")(type "KiCad")(uri "${KIPRJMOD}/lib/synermycha-electronics-footprints")(options "")(descr ""))
+  (lib (name "synermycha-electronics-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/synermycha-electronics-footprints")(options "")(descr ""))
 )

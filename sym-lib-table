@@ -5,7 +5,7 @@
   (lib (name "p-mos")(type "KiCad")(uri "${KIPRJMOD}/libs/p-mos.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_stlink_V3")(type "KiCad")(uri "${KIPRJMOD}/libs/Connector_stlink_V3.kicad_sym")(options "")(descr ""))
   (lib (name "synermycha-electronics-rescue")(type "KiCad")(uri "${KIPRJMOD}/libs/synermycha-electronics-rescue.kicad_sym")(options "")(descr ""))
-  (lib (name "synermycha-electronics")(type "KiCad")(uri "${KIPRJMOD}/libs/synermycha-electronics.kicad_sym")(options "")(descr ""))
   (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/libs/eec.kicad_sym")(options "")(descr ""))
   (lib (name "CYPD3177-24LQXI")(type "KiCad")(uri "${KIPRJMOD}/libs/CYPD3177-24LQXI.kicad_sym")(options "")(descr ""))
+  (lib (name "synermycha-electronics")(type "KiCad")(uri "${KIPRJMOD}/lib/synermycha-electronics.kicad_sym")(options "")(descr ""))
 )

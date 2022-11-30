@@ -1,514 +1,1034 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 419de608-39be-42ef-ba14-6326a63d1b1d)
-
-  (paper "A3")
-
-  (lib_symbols
-    (symbol "antmicroCapacitors0402:C_100n_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "C_100n_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:0402-cap" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "Murata" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "GRM155R61H104KE14D" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "100n" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "C_100n_0402_1_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "antmicroCapacitors0603:C_10u_16V_0603" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "C_10u_16V_0603" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:0603-cap" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "MURATA" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "GRM188C81C106MA73D" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "10u/16V" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "C_10u_16V_0603_1_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "antmicroPMICMotorDriversControllers:DRV8835DSSR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at -10.16 20.32 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "DRV8835DSSR" (id 1) (at 5.08 20.32 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "antmicro-footprints:WSON-12_2x3mm" (id 2) (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8835.pdf" (id 3) (at 0 -15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "Texas Instruments" (id 4) (at 2.54 -17.78 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "DRV8835DSSR" (id 5) (at 2.54 -20.32 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "12-V, 1.5-A dual H-bridge motor driver 12-WSON -40 to 85" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "DRV8835DSSR_0_1"
-        (rectangle (start -7.62 17.78) (end 7.62 -10.16)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-      )
-      (symbol "DRV8835DSSR_1_1"
-        (pin passive line (at 10.16 -5.08 180) (length 2.54)
-          (name "VM" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 10.16 0) (length 2.54)
-          (name "DIR_A" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 15.24 0) (length 2.54)
-          (name "EN" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 -5.08 0) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 -7.62 180) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 15.24 180) (length 2.54)
-          (name "AOUT1" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 12.7 180) (length 2.54)
-          (name "AOUT2" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 5.08 180) (length 2.54)
-          (name "BOUT1" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 2.54 180) (length 2.54)
-          (name "BOUT2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 -7.62 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 0 0) (length 2.54)
-          (name "PWM_B" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 2.54 0) (length 2.54)
-          (name "DIR_B" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 7.62 0) (length 2.54)
-          (name "PWM_A" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 175.895 107.315) (diameter 0) (color 0 0 0 0)
-    (uuid 4965fb7f-6c67-404a-9904-8cf67ca917a0)
-  )
-  (junction (at 198.755 107.315) (diameter 0) (color 0 0 0 0)
-    (uuid 50cd06fa-81c1-4916-b8b1-5f4187d03b26)
-  )
-
-  (bus_entry (at 159.385 90.805) (size -2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1c704340-7833-4e35-a83e-af5ba55f2c12)
-  )
-  (bus_entry (at 159.385 85.725) (size -2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 28afbe36-15d2-44cf-9d63-6e061e99c82b)
-  )
-  (bus_entry (at 159.385 83.185) (size -2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 66eefab2-3930-48b7-8001-af65f2c0c3cf)
-  )
-  (bus_entry (at 159.385 93.345) (size -2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7b683b1f-15c0-4ba6-bf50-fb8fd401215c)
-  )
-  (bus_entry (at 159.385 78.105) (size -2.54 -2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7d536552-c58c-42c3-84ed-92303ac3549c)
-  )
-
-  (wire (pts (xy 197.485 98.425) (xy 203.2 98.425))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1a9e0c9c-3558-4c1e-84ba-2edfea6c8a83)
-  )
-  (wire (pts (xy 175.895 107.315) (xy 171.45 107.315))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3532b823-0b85-42e9-84ca-3071dae94f41)
-  )
-  (wire (pts (xy 177.165 98.425) (xy 171.45 98.425))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3e63a1f2-65a7-4bfc-9853-78e15ecd5ea5)
-  )
-  (wire (pts (xy 177.165 85.725) (xy 159.385 85.725))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 41233718-3160-4a95-840e-46f947e581dd)
-  )
-  (bus (pts (xy 156.845 74.93) (xy 156.845 75.565))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 45afeef5-7151-4258-a18f-41b189f372e5)
-  )
-
-  (wire (pts (xy 171.45 107.315) (xy 171.45 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5078f103-338e-43d5-8dc6-3662d1f30326)
-  )
-  (bus (pts (xy 156.845 88.265) (xy 156.845 90.805))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 546c8424-a2ab-445b-9abf-423b47a9f697)
-  )
-  (bus (pts (xy 156.845 75.565) (xy 156.845 80.645))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5b36b65b-9600-4a96-a115-cd7f65e080b7)
-  )
-
-  (wire (pts (xy 177.165 93.345) (xy 159.385 93.345))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5c5d4d26-9bda-409d-8662-9002c1c5b363)
-  )
-  (wire (pts (xy 177.165 78.105) (xy 159.385 78.105))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6088200c-5789-4e62-b5c4-6dba7a13755e)
-  )
-  (bus (pts (xy 156.845 80.645) (xy 156.845 83.185))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 627caf1b-62b6-430e-a58e-ff1a52c7d118)
-  )
-
-  (wire (pts (xy 175.895 107.315) (xy 175.895 108.585))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 669c1fd6-568b-4e3a-a65d-f8ef0c4ab8e5)
-  )
-  (wire (pts (xy 203.2 107.315) (xy 203.2 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 68f5b44d-2b4a-4b2a-bfb3-b94ad8715571)
-  )
-  (wire (pts (xy 203.2 98.425) (xy 203.2 99.06))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 69dc56ab-2cd5-4660-98ae-5fb6f3be8ec7)
-  )
-  (wire (pts (xy 171.45 98.425) (xy 171.45 99.06))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 74c62e84-bcc4-413b-9f81-3d11b3670696)
-  )
-  (bus (pts (xy 156.845 74.93) (xy 155.575 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 86d5e8b7-7aef-426e-8462-c687e728c5db)
-  )
-  (bus (pts (xy 155.575 73.66) (xy 152.4 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 88344fc2-0fd2-4bf0-96f7-d32ea571d527)
-  )
-
-  (wire (pts (xy 177.165 100.965) (xy 175.895 100.965))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8e5b706b-185d-4dd7-8525-aefa4cd92fec)
-  )
-  (wire (pts (xy 175.895 100.965) (xy 175.895 107.315))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a0af8354-a100-487b-be04-66f68a0ffea6)
-  )
-  (wire (pts (xy 177.165 90.805) (xy 159.385 90.805))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a13fb802-1c49-4351-a9f1-4c3c04da78b1)
-  )
-  (bus (pts (xy 156.845 83.185) (xy 156.845 88.265))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a79e4067-3c92-40e6-ac88-34cf64501597)
-  )
-
-  (wire (pts (xy 198.755 107.315) (xy 198.755 108.585))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c96ab6b2-6d57-4d08-9f84-4bcf779fd30a)
-  )
-  (wire (pts (xy 198.755 100.965) (xy 198.755 107.315))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d01170a5-2ee6-4ffe-8a49-5e60d15af280)
-  )
-  (wire (pts (xy 197.485 100.965) (xy 198.755 100.965))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d02f47e0-c955-41a6-bde7-ca06450a75ff)
-  )
-  (wire (pts (xy 198.755 107.315) (xy 203.2 107.315))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d8e188bc-cf4d-45d3-ae22-3941f898550b)
-  )
-  (wire (pts (xy 177.165 83.185) (xy 159.385 83.185))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f2b665c3-e5ac-458b-b6d6-488fe1eb2490)
-  )
-
-  (label "DRV8835_PWM_B" (at 175.895 93.345 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1da5311f-6cc0-4c61-a19b-1fc0f3fd8853)
-  )
-  (label "DRV8835_EN" (at 175.895 78.105 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid a3388e83-1c9d-425b-a7f2-99d4b8c3398e)
-  )
-  (label "DRV8835_DIR_B" (at 175.895 90.805 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b7fe224e-3968-4e05-a8ce-460aa6a59bfd)
-  )
-  (label "DRV8835_DIR_A" (at 175.895 83.185 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid bcb10f48-16d9-4b4f-8f91-908ba3d9ca46)
-  )
-  (label "DRV8835_PWM_A" (at 175.895 85.725 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid cd5956ee-1770-4816-9d3d-74f38e4d2521)
-  )
-
-  (hierarchical_label "{DC_MOTOR_CTRL}" (shape bidirectional) (at 152.4 73.66 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 536b9d02-c104-4204-a1d4-a99df4547dcf)
-  )
-
-  (symbol (lib_id "power:GND") (at 175.895 108.585 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00005e6fbad5)
-    (property "Reference" "#PWR0199" (id 0) (at 175.895 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 176.022 112.9792 0))
-    (property "Footprint" "" (id 2) (at 175.895 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 175.895 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f4d0da08-7238-4170-8d02-603ef7bc6c97))
-  )
-
-  (symbol (lib_id "power:GND") (at 198.755 108.585 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 07f82f07-8c89-4cf3-879c-25045eb5e7e7)
-    (property "Reference" "#PWR0116" (id 0) (at 198.755 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 198.628 112.9792 0))
-    (property "Footprint" "" (id 2) (at 198.755 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 198.755 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e444f99-a0d7-4e1e-ab9a-e425a56c0e54))
-  )
-
-  (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 171.45 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 2600b28b-f9a0-4aaf-a21c-a0f4667796f3)
-    (property "Reference" "C7" (id 0) (at 167.64 101.6 0)
-      (effects (font (size 1.524 1.524)) (justify right))
-    )
-    (property "Value" "C_100n_0402" (id 1) (at 171.45 106.68 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "antmicro-footprints:0402-cap" (id 2) (at 176.53 97.79 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 171.45 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Murata" (id 4) (at 176.53 92.71 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "GRM155R61H104KE14D" (id 5) (at 176.53 95.25 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "100n" (id 6) (at 167.64 104.7749 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (pin "1" (uuid c8bd0c57-4e09-4d62-baa2-0a84e4aba90e))
-    (pin "2" (uuid 80297a3f-b983-4e70-b65e-0ea0799bd64c))
-  )
-
-  (symbol (lib_id "antmicroCapacitors0603:C_10u_16V_0603") (at 203.2 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 895c45f5-389f-4087-b851-870281fb80af)
-    (property "Reference" "C8" (id 0) (at 207.01 101.6 0)
-      (effects (font (size 1.524 1.524)) (justify left))
-    )
-    (property "Value" "C_10u_16V_0603" (id 1) (at 203.2 106.68 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "antmicro-footprints:0603-cap" (id 2) (at 208.28 97.79 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 203.2 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "MURATA" (id 4) (at 208.28 92.71 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "MPN" "GRM188C81C106MA73D" (id 5) (at 208.28 95.25 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Val" "10u/16V" (id 6) (at 207.01 104.7749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "1" (uuid 381cfff7-e6e8-4e50-8db4-c53273573354))
-    (pin "2" (uuid 3d6f8497-f646-4a7f-af98-3ab09a029d61))
-  )
-
-  (symbol (lib_id "antmicroPMICMotorDriversControllers:DRV8835DSSR") (at 187.325 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid d9e784f0-cdc0-493d-841c-b2f757bbc142)
-    (property "Reference" "U3" (id 0) (at 187.325 69.85 0))
-    (property "Value" "DRV8835DSSR" (id 1) (at 187.325 72.39 0))
-    (property "Footprint" "antmicro-footprints:WSON-12_2x3mm" (id 2) (at 187.325 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8835.pdf" (id 3) (at 187.325 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Texas Instruments" (id 4) (at 189.865 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DRV8835DSSR" (id 5) (at 189.865 113.665 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f06cb62f-7c21-4fb9-9efd-d6f6ba8dce25))
-    (pin "10" (uuid 7a0dba47-6222-4b70-91ed-345973aeabcf))
-    (pin "11" (uuid b060cbb2-b1e8-40f1-8f3f-6fb86a18f581))
-    (pin "12" (uuid 0d02f9fc-b956-40a5-a88f-6bb07ee0f8e7))
-    (pin "13" (uuid d9ff0112-d736-4e05-914b-6ee629de9399))
-    (pin "2" (uuid 17275652-745a-4673-af7c-b32e9b9a997a))
-    (pin "3" (uuid bffc2544-1346-49e8-be2c-f642c1779286))
-    (pin "4" (uuid f77ddb38-e413-49a4-aaaf-e88460a987c2))
-    (pin "5" (uuid 8d7f3811-e82b-4f1a-a92b-6cb37c4ae82a))
-    (pin "6" (uuid 38cce842-cf7d-4435-a253-affd475372ac))
-    (pin "7" (uuid 7a885789-dd0e-42ba-b456-5e7860359941))
-    (pin "8" (uuid 2d1a23d9-62d0-4b03-96e8-5b2b8e23cdfd))
-    (pin "9" (uuid 5d448463-02b9-42ed-8b59-68b3ef0e6605))
-  )
-)
+(kicad_sch 
+    (version 20211123) 
+    (generator eeschema) 
+    (uuid 419de608-39be-42ef-ba14-6326a63d1b1d) 
+    (paper "A3") 
+    (lib_symbols 
+        (symbol "synermycha-electronics:C_100n_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "C" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "C_100n_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "synermycha-electronics-footprints:0402-cap" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "Murata" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "GRM155R61H104KE14D" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "100n" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "C_100n_0402_1_1" 
+                (polyline 
+                    (pts 
+                        (xy -2.032 -0.762) 
+                        (xy 2.032 -0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -2.032 0.762) 
+                        (xy 2.032 0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at 0 3.81 270) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 0 -3.81 90) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "synermycha-electronics:C_10u_16V_0603" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "C" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "C_10u_16V_0603" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "synermycha-electronics-footprints:0603-cap" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "MURATA" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "GRM188C81C106MA73D" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "10u/16V" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "C_10u_16V_0603_1_1" 
+                (polyline 
+                    (pts 
+                        (xy -2.032 -0.762) 
+                        (xy 2.032 -0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -2.032 0.762) 
+                        (xy 2.032 0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at 0 3.81 270) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 0 -3.81 90) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "synermycha-electronics:DRV8835DSSR" 
+            (pin_names 
+                (offset 1.016)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "U" 
+                (id 0) 
+                (at -10.16 20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Value" "DRV8835DSSR" 
+                (id 1) 
+                (at 5.08 20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "synermycha-electronics-footprints:WSON-12_2x3mm" 
+                (id 2) 
+                (at 0 -12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8835.pdf" 
+                (id 3) 
+                (at 0 -15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "Texas Instruments" 
+                (id 4) 
+                (at 2.54 -17.78 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "MPN" "DRV8835DSSR" 
+                (id 5) 
+                (at 2.54 -20.32 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "12-V, 1.5-A dual H-bridge motor driver 12-WSON -40 to 85" 
+                (id 6) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "DRV8835DSSR_0_1" 
+                (rectangle 
+                    (start -7.62 17.78) 
+                    (end 7.62 -10.16) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background)))) 
+            (symbol "DRV8835DSSR_1_1" 
+                (pin passive line 
+                    (at 10.16 -5.08 180) 
+                    (length 2.54) 
+                    (name "VM" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin input line 
+                    (at -10.16 10.16 0) 
+                    (length 2.54) 
+                    (name "DIR_A" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "10" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin input line 
+                    (at -10.16 15.24 0) 
+                    (length 2.54) 
+                    (name "EN" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "11" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at -10.16 -5.08 0) 
+                    (length 2.54) 
+                    (name "VCC" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "12" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 -7.62 180) 
+                    (length 2.54) 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "13" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 15.24 180) 
+                    (length 2.54) 
+                    (name "AOUT1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 12.7 180) 
+                    (length 2.54) 
+                    (name "AOUT2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 5.08 180) 
+                    (length 2.54) 
+                    (name "BOUT1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 10.16 2.54 180) 
+                    (length 2.54) 
+                    (name "BOUT2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at -10.16 -7.62 0) 
+                    (length 2.54) 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin input line 
+                    (at -10.16 0 0) 
+                    (length 2.54) 
+                    (name "PWM_B" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin input line 
+                    (at -10.16 2.54 0) 
+                    (length 2.54) 
+                    (name "DIR_B" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "8" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin input line 
+                    (at -10.16 7.62 0) 
+                    (length 2.54) 
+                    (name "PWM_A" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "9" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "synermycha-electronics:GND" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "#PWR" 
+                (id 0) 
+                (at 0 -6.35 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "GND" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_keywords" "power-flag" 
+                (id 4) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" 
+                (id 5) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "GND_0_1" 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 -1.27) 
+                        (xy 1.27 -1.27) 
+                        (xy 0 -2.54) 
+                        (xy -1.27 -1.27) 
+                        (xy 0 -1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "GND_1_1" 
+                (pin power_in line 
+                    (at 0 0 270) 
+                    (length 0) hide 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))))))) 
+    (junction 
+        (at 175.895 107.315) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 4965fb7f-6c67-404a-9904-8cf67ca917a0)) 
+    (junction 
+        (at 198.755 107.315) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 50cd06fa-81c1-4916-b8b1-5f4187d03b26)) 
+    (bus_entry 
+        (at 159.385 90.805) 
+        (size -2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1c704340-7833-4e35-a83e-af5ba55f2c12)) 
+    (bus_entry 
+        (at 159.385 85.725) 
+        (size -2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 28afbe36-15d2-44cf-9d63-6e061e99c82b)) 
+    (bus_entry 
+        (at 159.385 83.185) 
+        (size -2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 66eefab2-3930-48b7-8001-af65f2c0c3cf)) 
+    (bus_entry 
+        (at 159.385 93.345) 
+        (size -2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 7b683b1f-15c0-4ba6-bf50-fb8fd401215c)) 
+    (bus_entry 
+        (at 159.385 78.105) 
+        (size -2.54 -2.54) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 7d536552-c58c-42c3-84ed-92303ac3549c)) 
+    (wire 
+        (pts 
+            (xy 197.485 98.425) 
+            (xy 203.2 98.425)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1a9e0c9c-3558-4c1e-84ba-2edfea6c8a83)) 
+    (wire 
+        (pts 
+            (xy 175.895 107.315) 
+            (xy 171.45 107.315)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3532b823-0b85-42e9-84ca-3071dae94f41)) 
+    (wire 
+        (pts 
+            (xy 177.165 98.425) 
+            (xy 171.45 98.425)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3e63a1f2-65a7-4bfc-9853-78e15ecd5ea5)) 
+    (wire 
+        (pts 
+            (xy 177.165 85.725) 
+            (xy 159.385 85.725)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 41233718-3160-4a95-840e-46f947e581dd)) 
+    (bus 
+        (pts 
+            (xy 156.845 74.93) 
+            (xy 156.845 75.565)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 45afeef5-7151-4258-a18f-41b189f372e5)) 
+    (wire 
+        (pts 
+            (xy 171.45 107.315) 
+            (xy 171.45 106.68)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 5078f103-338e-43d5-8dc6-3662d1f30326)) 
+    (bus 
+        (pts 
+            (xy 156.845 88.265) 
+            (xy 156.845 90.805)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 546c8424-a2ab-445b-9abf-423b47a9f697)) 
+    (bus 
+        (pts 
+            (xy 156.845 75.565) 
+            (xy 156.845 80.645)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 5b36b65b-9600-4a96-a115-cd7f65e080b7)) 
+    (wire 
+        (pts 
+            (xy 177.165 93.345) 
+            (xy 159.385 93.345)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 5c5d4d26-9bda-409d-8662-9002c1c5b363)) 
+    (wire 
+        (pts 
+            (xy 177.165 78.105) 
+            (xy 159.385 78.105)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 6088200c-5789-4e62-b5c4-6dba7a13755e)) 
+    (bus 
+        (pts 
+            (xy 156.845 80.645) 
+            (xy 156.845 83.185)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 627caf1b-62b6-430e-a58e-ff1a52c7d118)) 
+    (wire 
+        (pts 
+            (xy 175.895 107.315) 
+            (xy 175.895 108.585)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 669c1fd6-568b-4e3a-a65d-f8ef0c4ab8e5)) 
+    (wire 
+        (pts 
+            (xy 203.2 107.315) 
+            (xy 203.2 106.68)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 68f5b44d-2b4a-4b2a-bfb3-b94ad8715571)) 
+    (wire 
+        (pts 
+            (xy 203.2 98.425) 
+            (xy 203.2 99.06)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 69dc56ab-2cd5-4660-98ae-5fb6f3be8ec7)) 
+    (wire 
+        (pts 
+            (xy 171.45 98.425) 
+            (xy 171.45 99.06)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 74c62e84-bcc4-413b-9f81-3d11b3670696)) 
+    (bus 
+        (pts 
+            (xy 156.845 74.93) 
+            (xy 155.575 73.66)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 86d5e8b7-7aef-426e-8462-c687e728c5db)) 
+    (bus 
+        (pts 
+            (xy 155.575 73.66) 
+            (xy 152.4 73.66)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 88344fc2-0fd2-4bf0-96f7-d32ea571d527)) 
+    (wire 
+        (pts 
+            (xy 177.165 100.965) 
+            (xy 175.895 100.965)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 8e5b706b-185d-4dd7-8525-aefa4cd92fec)) 
+    (wire 
+        (pts 
+            (xy 175.895 100.965) 
+            (xy 175.895 107.315)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a0af8354-a100-487b-be04-66f68a0ffea6)) 
+    (wire 
+        (pts 
+            (xy 177.165 90.805) 
+            (xy 159.385 90.805)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a13fb802-1c49-4351-a9f1-4c3c04da78b1)) 
+    (bus 
+        (pts 
+            (xy 156.845 83.185) 
+            (xy 156.845 88.265)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a79e4067-3c92-40e6-ac88-34cf64501597)) 
+    (wire 
+        (pts 
+            (xy 198.755 107.315) 
+            (xy 198.755 108.585)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c96ab6b2-6d57-4d08-9f84-4bcf779fd30a)) 
+    (wire 
+        (pts 
+            (xy 198.755 100.965) 
+            (xy 198.755 107.315)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d01170a5-2ee6-4ffe-8a49-5e60d15af280)) 
+    (wire 
+        (pts 
+            (xy 197.485 100.965) 
+            (xy 198.755 100.965)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d02f47e0-c955-41a6-bde7-ca06450a75ff)) 
+    (wire 
+        (pts 
+            (xy 198.755 107.315) 
+            (xy 203.2 107.315)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d8e188bc-cf4d-45d3-ae22-3941f898550b)) 
+    (wire 
+        (pts 
+            (xy 177.165 83.185) 
+            (xy 159.385 83.185)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid f2b665c3-e5ac-458b-b6d6-488fe1eb2490)) 
+    (label "DRV8835_PWM_B" 
+        (at 175.895 93.345 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid 1da5311f-6cc0-4c61-a19b-1fc0f3fd8853)) 
+    (label "DRV8835_EN" 
+        (at 175.895 78.105 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid a3388e83-1c9d-425b-a7f2-99d4b8c3398e)) 
+    (label "DRV8835_DIR_B" 
+        (at 175.895 90.805 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid b7fe224e-3968-4e05-a8ce-460aa6a59bfd)) 
+    (label "DRV8835_DIR_A" 
+        (at 175.895 83.185 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid bcb10f48-16d9-4b4f-8f91-908ba3d9ca46)) 
+    (label "DRV8835_PWM_A" 
+        (at 175.895 85.725 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right bottom)) 
+        (uuid cd5956ee-1770-4816-9d3d-74f38e4d2521)) 
+    (hierarchical_label "{DC_MOTOR_CTRL}" 
+        (shape bidirectional) 
+        (at 152.4 73.66 180) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid 536b9d02-c104-4204-a1d4-a99df4547dcf)) 
+    (symbol 
+        (lib_id "synermycha-electronics:GND") 
+        (at 175.895 108.585 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00005e6fbad5) 
+        (property "Reference" "#PWR0199" 
+            (id 0) 
+            (at 175.895 114.935 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 176.022 112.9792 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 175.895 108.585 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 175.895 108.585 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid f4d0da08-7238-4170-8d02-603ef7bc6c97))) 
+    (symbol 
+        (lib_id "synermycha-electronics:GND") 
+        (at 198.755 108.585 0) 
+        (mirror y) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 07f82f07-8c89-4cf3-879c-25045eb5e7e7) 
+        (property "Reference" "#PWR0116" 
+            (id 0) 
+            (at 198.755 114.935 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 198.628 112.9792 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 198.755 108.585 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 198.755 108.585 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 3e444f99-a0d7-4e1e-ab9a-e425a56c0e54))) 
+    (symbol 
+        (lib_id "synermycha-electronics:C_100n_0402") 
+        (at 171.45 102.87 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (fields_autoplaced) 
+        (uuid 2600b28b-f9a0-4aaf-a21c-a0f4667796f3) 
+        (property "Reference" "C7" 
+            (id 0) 
+            (at 167.64 101.6 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify right))) 
+        (property "Value" "C_100n_0402" 
+            (id 1) 
+            (at 171.45 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "synermycha-electronics-footprints:0402-cap" 
+            (id 2) 
+            (at 176.53 97.79 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 171.45 102.87 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Murata" 
+            (id 4) 
+            (at 176.53 92.71 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "GRM155R61H104KE14D" 
+            (id 5) 
+            (at 176.53 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100n" 
+            (id 6) 
+            (at 167.64 104.7749 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify right))) 
+        (pin "1" 
+            (uuid c8bd0c57-4e09-4d62-baa2-0a84e4aba90e)) 
+        (pin "2" 
+            (uuid 80297a3f-b983-4e70-b65e-0ea0799bd64c))) 
+    (symbol 
+        (lib_id "synermycha-electronics:C_10u_16V_0603") 
+        (at 203.2 102.87 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (fields_autoplaced) 
+        (uuid 895c45f5-389f-4087-b851-870281fb80af) 
+        (property "Reference" "C8" 
+            (id 0) 
+            (at 207.01 101.6 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_10u_16V_0603" 
+            (id 1) 
+            (at 203.2 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "synermycha-electronics-footprints:0603-cap" 
+            (id 2) 
+            (at 208.28 97.79 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 203.2 102.87 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "MURATA" 
+            (id 4) 
+            (at 208.28 92.71 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "GRM188C81C106MA73D" 
+            (id 5) 
+            (at 208.28 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "10u/16V" 
+            (id 6) 
+            (at 207.01 104.7749 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 381cfff7-e6e8-4e50-8db4-c53273573354)) 
+        (pin "2" 
+            (uuid 3d6f8497-f646-4a7f-af98-3ab09a029d61))) 
+    (symbol 
+        (lib_id "synermycha-electronics:DRV8835DSSR") 
+        (at 187.325 93.345 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (fields_autoplaced) 
+        (uuid d9e784f0-cdc0-493d-841c-b2f757bbc142) 
+        (property "Reference" "U3" 
+            (id 0) 
+            (at 187.325 69.85 0)) 
+        (property "Value" "DRV8835DSSR" 
+            (id 1) 
+            (at 187.325 72.39 0)) 
+        (property "Footprint" "synermycha-electronics-footprints:WSON-12_2x3mm" 
+            (id 2) 
+            (at 187.325 106.045 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8835.pdf" 
+            (id 3) 
+            (at 187.325 108.585 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Texas Instruments" 
+            (id 4) 
+            (at 189.865 111.125 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "DRV8835DSSR" 
+            (id 5) 
+            (at 189.865 113.665 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid f06cb62f-7c21-4fb9-9efd-d6f6ba8dce25)) 
+        (pin "10" 
+            (uuid 7a0dba47-6222-4b70-91ed-345973aeabcf)) 
+        (pin "11" 
+            (uuid b060cbb2-b1e8-40f1-8f3f-6fb86a18f581)) 
+        (pin "12" 
+            (uuid 0d02f9fc-b956-40a5-a88f-6bb07ee0f8e7)) 
+        (pin "13" 
+            (uuid d9ff0112-d736-4e05-914b-6ee629de9399)) 
+        (pin "2" 
+            (uuid 17275652-745a-4673-af7c-b32e9b9a997a)) 
+        (pin "3" 
+            (uuid bffc2544-1346-49e8-be2c-f642c1779286)) 
+        (pin "4" 
+            (uuid f77ddb38-e413-49a4-aaaf-e88460a987c2)) 
+        (pin "5" 
+            (uuid 8d7f3811-e82b-4f1a-a92b-6cb37c4ae82a)) 
+        (pin "6" 
+            (uuid 38cce842-cf7d-4435-a253-affd475372ac)) 
+        (pin "7" 
+            (uuid 7a885789-dd0e-42ba-b456-5e7860359941)) 
+        (pin "8" 
+            (uuid 2d1a23d9-62d0-4b03-96e8-5b2b8e23cdfd)) 
+        (pin "9" 
+            (uuid 5d448463-02b9-42ed-8b59-68b3ef0e6605))))
